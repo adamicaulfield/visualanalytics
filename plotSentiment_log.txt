@@ -1,0 +1,931 @@
+---------------- Article Sentiment ----------------
+	pos	neg	neu
+mean	0.0565	0.0768	0.8667
+std	0.044	0.0673	0.0754
+min	0.0	0.0	0.587
+1Q	0.024	0.0245	0.8173
+median	0.0534	0.064	0.8703
+3Q	0.0828	0.1112	0.919
+max	0.2445	0.375	1.0
+ 
+---------------- Publisher Sentiment ----------------
+	pos	neg	neu	count
+mean	0.4168	0.5438	0.0394	29.1379
+std	0.1632	0.1408	0.0778	20.2956
+min	0.1429	0.2105	0.0	9.0
+1Q	0.3056	0.5	0.0	18.0
+median	0.4	0.5556	0.0	25.0
+3Q	0.5	0.6111	0.0476	28.0
+max	0.7895	0.8095	0.2857	111.0
+ 
+Significant count: News Online Today
+Significant pos/neg: News Desk
+Significant pos/neg: The General Post
+Significant pos/neg: Central Bulletin
+Significant pos/neg: Athena Speaks
+Significant pos/neg: The World
+Significant pos/neg: The Abila Post
+Significant pos/neg: The Explainer
+The Orb
+0	2012/09/08	{'pos': 0.0952, 'neg': 0.0724, 'neu': 0.832, 'compound': 0.054}
+109	2002/05/26	{'pos': 0.0238, 'neg': 0.0989, 'neu': 0.8769, 'compound': -0.4265}
+148	2014/01/19	{'pos': 0.0675, 'neg': 0.0, 'neu': 0.9325, 'compound': 0.445}
+210	1993/02/03	{'pos': 0.0828, 'neg': 0.0165, 'neu': 0.9007, 'compound': 0.3476}
+211	1998/11/16	{'pos': 0.0543, 'neg': 0.016, 'neu': 0.9296, 'compound': 0.2608}
+222	1998/05/17	{'pos': 0.0, 'neg': 0.033, 'neu': 0.967, 'compound': -0.1356}
+239	2012/04/10	{'pos': 0.07, 'neg': 0.0503, 'neu': 0.8797, 'compound': 0.1344}
+248	1999/07/09	{'pos': 0.0793, 'neg': 0.0612, 'neu': 0.8596, 'compound': 0.1809}
+249	2011/06/22	{'pos': 0.0301, 'neg': 0.1812, 'neu': 0.7883, 'compound': -0.7758}
+275	1998/08/20	{'pos': 0.0364, 'neg': 0.19, 'neu': 0.7736, 'compound': -0.5284}
+357	2009/06/21	{'pos': 0.0923, 'neg': 0.1039, 'neu': 0.8037, 'compound': 0.0957}
+390	2007/03/22	{'pos': 0.0262, 'neg': 0.0872, 'neu': 0.8866, 'compound': -0.2741}
+455	2009/03/14	{'pos': 0.0803, 'neg': 0.0544, 'neu': 0.8651, 'compound': 0.0206}
+459	2001/03/24	{'pos': 0.0534, 'neg': 0.0278, 'neu': 0.9191, 'compound': 0.1767}
+523	2010/06/21	{'pos': 0.061, 'neg': 0.2062, 'neu': 0.7328, 'compound': -0.6364}
+531	1998/03/20	{'pos': 0.0491, 'neg': 0.05, 'neu': 0.9009, 'compound': -0.047}
+546	2004/05/31	{'pos': 0.035, 'neg': 0.065, 'neu': 0.9, 'compound': -0.4215}
+575	2013/06/22	{'pos': 0.0658, 'neg': 0.0575, 'neu': 0.8769, 'compound': -0.0081}
+622	1998/05/17	{'pos': 0.0913, 'neg': 0.0525, 'neu': 0.8562, 'compound': -0.1238}
+662	2012/06/22	{'pos': 0.0784, 'neg': 0.1257, 'neu': 0.7957, 'compound': -0.3168}
+672	2000/06/01	{'pos': 0.0278, 'neg': 0.0322, 'neu': 0.94, 'compound': -0.0773}
+735	2009/03/09	{'pos': 0.0796, 'neg': 0.0651, 'neu': 0.8553, 'compound': 0.0679}
+741	1998/04/27	{'pos': 0.0594, 'neg': 0.0403, 'neu': 0.9005, 'compound': 0.0715}
+778	2001/09/01	{'pos': 0.0471, 'neg': 0.104, 'neu': 0.8487, 'compound': -0.2107}
+832	2005/04/06	{'pos': 0.024, 'neg': 0.1083, 'neu': 0.8676, 'compound': -0.3235}
+840	2012/11/12	{'pos': 0.0814, 'neg': 0.0456, 'neu': 0.873, 'compound': 0.0181}
+ 
+The Light of Truth
+1	2013/12/18	{'pos': 0.1054, 'neg': 0.033, 'neu': 0.8618, 'compound': 0.2943}
+102	2013/09/04	{'pos': 0.1087, 'neg': 0.0, 'neu': 0.8913, 'compound': 0.4368}
+164	2003/05/19	{'pos': 0.1008, 'neg': 0.1068, 'neu': 0.7929, 'compound': -0.0801}
+198	1994/02/18	{'pos': 0.1238, 'neg': 0.0632, 'neu': 0.813, 'compound': 0.2567}
+216	2000/01/16	{'pos': 0.1145, 'neg': 0.0305, 'neu': 0.855, 'compound': 0.2908}
+277	2000/08/16	{'pos': 0.075, 'neg': 0.0665, 'neu': 0.8585, 'compound': -0.0111}
+301	1992/12/12	{'pos': 0.163, 'neg': 0.0232, 'neu': 0.8138, 'compound': 0.446}
+432	2010/12/18	{'pos': 0.115, 'neg': 0.0303, 'neu': 0.8546, 'compound': 0.3284}
+456	1995/10/11	{'pos': 0.045, 'neg': 0.0447, 'neu': 0.9104, 'compound': 0.1732}
+494	2014/01/20	{'pos': 0.0728, 'neg': 0.0744, 'neu': 0.8527, 'compound': -0.0259}
+503	1993/09/21	{'pos': 0.0297, 'neg': 0.0, 'neu': 0.9703, 'compound': 0.2311}
+560	2009/05/17	{'pos': 0.0546, 'neg': 0.0618, 'neu': 0.8836, 'compound': 0.006}
+671	1996/07/08	{'pos': 0.094, 'neg': 0.0, 'neu': 0.9059, 'compound': 0.3599}
+675	2009/02/21	{'pos': 0.0272, 'neg': 0.0934, 'neu': 0.8794, 'compound': -0.4421}
+706	1999/02/20	{'pos': 0.0644, 'neg': 0.0286, 'neu': 0.907, 'compound': 0.1222}
+729	1995/03/31	{'pos': 0.0513, 'neg': 0.0703, 'neu': 0.8783, 'compound': -0.1943}
+802	1994/09/25	{'pos': 0.0547, 'neg': 0.0233, 'neu': 0.922, 'compound': 0.0237}
+822	2014/01/21	{'pos': 0.0457, 'neg': 0.0873, 'neu': 0.8669, 'compound': -0.2531}
+823	1998/11/15	{'pos': 0.117, 'neg': 0.1267, 'neu': 0.7567, 'compound': 0.029}
+ 
+Everyday News
+2	1999/11/16	{'pos': 0.0679, 'neg': 0.0787, 'neu': 0.8536, 'compound': -0.1984}
+80	2012/02/22	{'pos': 0.0863, 'neg': 0.0247, 'neu': 0.8889, 'compound': 0.1782}
+93	2013/02/09	{'pos': 0.0266, 'neg': 0.0657, 'neu': 0.9076, 'compound': -0.2673}
+147	2013/02/24	{'pos': 0.0863, 'neg': 0.0181, 'neu': 0.8959, 'compound': 0.3995}
+200	2014/03/26	{'pos': 0.0689, 'neg': 0.0859, 'neu': 0.8454, 'compound': -0.1884}
+201	2009/02/23	{'pos': 0.0691, 'neg': 0.1095, 'neu': 0.8217, 'compound': -0.1406}
+214	1982/10/03	{'pos': 0.1009, 'neg': 0.0292, 'neu': 0.87, 'compound': 0.3892}
+234	21 of October of 2013	{'pos': 0.0587, 'neg': 0.0634, 'neu': 0.8779, 'compound': -0.0827}
+332	2007/03/19	{'pos': 0.0575, 'neg': 0.0832, 'neu': 0.8593, 'compound': -0.128}
+343	2012/06/21	{'pos': 0.0758, 'neg': 0.1181, 'neu': 0.8061, 'compound': -0.1903}
+387	2009/06/23	{'pos': 0.0279, 'neg': 0.1009, 'neu': 0.8713, 'compound': -0.2913}
+460	2014/01/21	{'pos': 0.0182, 'neg': 0.1073, 'neu': 0.8745, 'compound': -0.309}
+496	1984/05/05	{'pos': 0.0844, 'neg': 0.0276, 'neu': 0.8878, 'compound': 0.2646}
+608	2013/11/13	{'pos': 0.0566, 'neg': 0.101, 'neu': 0.8427, 'compound': -0.1725}
+656	2014/03/26	{'pos': 0.0942, 'neg': 0.0418, 'neu': 0.864, 'compound': 0.1707}
+ 
+The Tulip
+3	1994/02/18	{'pos': 0.1114, 'neg': 0.0618, 'neu': 0.8268, 'compound': 0.2317}
+119	2013/09/03	{'pos': 0.0434, 'neg': 0.0, 'neu': 0.9567, 'compound': 0.1887}
+178	2014/01/21	{'pos': 0.0933, 'neg': 0.079, 'neu': 0.8276, 'compound': -0.074}
+206	1998/11/14	{'pos': 0.1077, 'neg': 0.087, 'neu': 0.8053, 'compound': 0.0929}
+315	1993/09/21	{'pos': 0.149, 'neg': 0.0147, 'neu': 0.8363, 'compound': 0.4928}
+319	1999/02/20	{'pos': 0.1268, 'neg': 0.0554, 'neu': 0.8176, 'compound': 0.1208}
+331	1994/09/25	{'pos': 0.0427, 'neg': 0.0353, 'neu': 0.922, 'compound': -0.0731}
+360	2013/12/17	{'pos': 0.0802, 'neg': 0.0, 'neu': 0.9197, 'compound': 0.4142}
+370	2010/12/19	{'pos': 0.0796, 'neg': 0.017, 'neu': 0.9033, 'compound': 0.3085}
+479	1992/12/12	{'pos': 0.17, 'neg': 0.0592, 'neu': 0.771, 'compound': 0.4689}
+504	2000/08/16	{'pos': 0.0316, 'neg': 0.0709, 'neu': 0.8972, 'compound': -0.2043}
+515	2000/01/16	{'pos': 0.118, 'neg': 0.0275, 'neu': 0.854, 'compound': 0.3624}
+529	2009/02/22	{'pos': 0.0296, 'neg': 0.131, 'neu': 0.8396, 'compound': -0.5681}
+586	1995/04/01	{'pos': 0.0243, 'neg': 0.0866, 'neu': 0.8893, 'compound': -0.3456}
+686	2003/05/19	{'pos': 0.0886, 'neg': 0.0585, 'neu': 0.8531, 'compound': 0.1254}
+695	1995/10/11	{'pos': 0.0197, 'neg': 0.0163, 'neu': 0.9639, 'compound': 0.0342}
+712	2014/01/20	{'pos': 0.0737, 'neg': 0.0627, 'neu': 0.8636, 'compound': 0.0403}
+720	1996/07/09	{'pos': 0.096, 'neg': 0.023, 'neu': 0.8809, 'compound': 0.2707}
+810	2009/05/16	{'pos': 0.0638, 'neg': 0.0638, 'neu': 0.8724, 'compound': -0.0137}
+ 
+News Online Today
+4	Petrus Gerhard	{'pos': 0.0184, 'neg': 0.0116, 'neu': 0.97, 'compound': 0.0843}
+7	2014/01/20	{'pos': 0.074, 'neg': 0.161, 'neu': 0.765, 'compound': -0.7316}
+12	2007/03/19	{'pos': 0.0385, 'neg': 0.1395, 'neu': 0.822, 'compound': -0.3842}
+14	2009/06/21	{'pos': 0.0545, 'neg': 0.212, 'neu': 0.7335, 'compound': -0.793}
+16	1998/05/16	{'pos': 0.094, 'neg': 0.0, 'neu': 0.906, 'compound': 0.4404}
+25	2013/12/16	{'pos': 0.093, 'neg': 0.32, 'neu': 0.587, 'compound': -0.8591}
+27	1998/01/19	{'pos': 0.133, 'neg': 0.144, 'neu': 0.723, 'compound': -0.2732}
+40	2014/01/19	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+45	2011/07/28	{'pos': 0.052, 'neg': 0.219, 'neu': 0.729, 'compound': -0.7506}
+46	2013/09/03	{'pos': 0.044, 'neg': 0.0, 'neu': 0.956, 'compound': 0.17}
+52	1995/10/11	{'pos': 0.161, 'neg': 0.07, 'neu': 0.769, 'compound': 0.4019}
+57	2012/06/21	{'pos': 0.0403, 'neg': 0.1235, 'neu': 0.8362, 'compound': -0.2487}
+63	2014/01/20	{'pos': 0.0, 'neg': 0.043, 'neu': 0.957, 'compound': -0.296}
+65	2009/05/16	{'pos': 0.109, 'neg': 0.117, 'neu': 0.774, 'compound': -0.0147}
+68	1998/11/15	{'pos': 0.213, 'neg': 0.0, 'neu': 0.787, 'compound': 0.765}
+71	2010/06/21	{'pos': 0.122, 'neg': 0.084, 'neu': 0.794, 'compound': 0.4215}
+79	Petrus Gerhard	{'pos': 0.0547, 'neg': 0.0726, 'neu': 0.8726, 'compound': -0.1616}
+82	30 June 2013	{'pos': 0.04, 'neg': 0.305, 'neu': 0.654, 'compound': -0.9501}
+86	2013/12/16	{'pos': 0.085, 'neg': 0.0, 'neu': 0.915, 'compound': 0.4215}
+95	2009/06/20	{'pos': 0.1085, 'neg': 0.0565, 'neu': 0.835, 'compound': 0.0827}
+98	1995/11/22	{'pos': 0.082, 'neg': 0.044, 'neu': 0.874, 'compound': 0.4019}
+103	1993/01/19	{'pos': 0.222, 'neg': 0.079, 'neu': 0.699, 'compound': 0.5719}
+108	12 November 2012	{'pos': 0.053, 'neg': 0.0, 'neu': 0.947, 'compound': 0.3182}
+117	1999/11/15	{'pos': 0.1453, 'neg': 0.1616, 'neu': 0.693, 'compound': -0.0786}
+120	1996/07/08	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+124	2013/02/08	{'pos': 0.0562, 'neg': 0.0605, 'neu': 0.8832, 'compound': -0.0143}
+155	2009/06/22	{'pos': 0.0, 'neg': 0.1123, 'neu': 0.8876, 'compound': -0.3986}
+179	2005/04/06	{'pos': 0.0, 'neg': 0.1335, 'neu': 0.8665, 'compound': -0.4078}
+184	2012/08/22	{'pos': 0.061, 'neg': 0.252, 'neu': 0.6875, 'compound': -0.8938}
+186	1997/10/15	{'pos': 0.0, 'neg': 0.122, 'neu': 0.878, 'compound': -0.7579}
+188	2000/06/01	{'pos': 0.088, 'neg': 0.069, 'neu': 0.843, 'compound': 0.128}
+204	2009/06/21	{'pos': 0.038, 'neg': 0.238, 'neu': 0.724, 'compound': -0.5625}
+209	17 December 2013	{'pos': 0.08, 'neg': 0.084, 'neu': 0.836, 'compound': -0.296}
+219	2014/01/21	{'pos': 0.0, 'neg': 0.05, 'neu': 0.95, 'compound': -0.1901}
+227	1984/05/04	{'pos': 0.0533, 'neg': 0.0621, 'neu': 0.8846, 'compound': -0.048}
+247	2005/04/06	{'pos': 0.0, 'neg': 0.167, 'neu': 0.833, 'compound': -0.7003}
+252	2013/06/20	{'pos': 0.1405, 'neg': 0.095, 'neu': 0.7645, 'compound': -0.2034}
+256	2000/08/17	{'pos': 0.079, 'neg': 0.094, 'neu': 0.827, 'compound': -0.2023}
+263	1998/08/20	{'pos': 0.165, 'neg': 0.157, 'neu': 0.678, 'compound': -0.1531}
+266	5 February 2012	{'pos': 0.0, 'neg': 0.09, 'neu': 0.91, 'compound': -0.5346}
+267	1999/07/08	{'pos': 0.13, 'neg': 0.0, 'neu': 0.87, 'compound': 0.7579}
+285	2005/09/25	{'pos': 0.0, 'neg': 0.199, 'neu': 0.801, 'compound': -0.802}
+286	2010/06/19	{'pos': 0.029, 'neg': 0.235, 'neu': 0.736, 'compound': -0.9612}
+288	2011/06/21	{'pos': 0.032, 'neg': 0.2923, 'neu': 0.6757, 'compound': -0.8979}
+291	2014/01/20	{'pos': 0.045, 'neg': 0.166, 'neu': 0.789, 'compound': -0.802}
+303	2013/02/22	{'pos': 0.0575, 'neg': 0.0225, 'neu': 0.92, 'compound': 0.4158}
+314	1995/03/30	{'pos': 0.0, 'neg': 0.111, 'neu': 0.889, 'compound': -0.4588}
+323	2011/11/23	{'pos': 0.0, 'neg': 0.291, 'neu': 0.709, 'compound': -0.6108}
+335	2009/02/19	{'pos': 0.027, 'neg': 0.106, 'neu': 0.867, 'compound': -0.743}
+337	2012/06/22	{'pos': 0.094, 'neg': 0.109, 'neu': 0.796, 'compound': -0.128}
+342	Petrus Gerhard	{'pos': 0.0093, 'neg': 0.0273, 'neu': 0.9636, 'compound': -0.2896}
+344	2014/01/21	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+346	2012/09/08	{'pos': 0.034, 'neg': 0.193, 'neu': 0.773, 'compound': -0.9062}
+352	2014/01/19	{'pos': 0.087, 'neg': 0.0, 'neu': 0.913, 'compound': 0.5719}
+367	1993/03/13	{'pos': 0.185, 'neg': 0.0, 'neu': 0.815, 'compound': 0.9042}
+371	2003/05/17	{'pos': 0.0855, 'neg': 0.1305, 'neu': 0.784, 'compound': -0.1306}
+378	2010/06/14	{'pos': 0.0, 'neg': 0.186, 'neu': 0.814, 'compound': -0.8979}
+380	1992/12/12	{'pos': 0.1055, 'neg': 0.052, 'neu': 0.8425, 'compound': 0.1416}
+389	2011/05/15	{'pos': 0.03, 'neg': 0.168, 'neu': 0.8015, 'compound': -0.3992}
+410	2000/10/02	{'pos': 0.095, 'neg': 0.129, 'neu': 0.776, 'compound': -0.0516}
+413	2000/08/15	{'pos': 0.042, 'neg': 0.048, 'neu': 0.909, 'compound': -0.0772}
+414	2012/04/10	{'pos': 0.162, 'neg': 0.06, 'neu': 0.778, 'compound': 0.5267}
+416	2011/06/21	{'pos': 0.053, 'neg': 0.042, 'neu': 0.906, 'compound': 0.0772}
+431	2014/01/20	{'pos': 0.049, 'neg': 0.074, 'neu': 0.876, 'compound': -0.0258}
+440	2014/01/20	{'pos': 0.041, 'neg': 0.052, 'neu': 0.907, 'compound': -0.1441}
+446	2013/11/13	{'pos': 0.0496, 'neg': 0.1626, 'neu': 0.788, 'compound': -0.3232}
+447	2009/03/08	{'pos': 0.122, 'neg': 0.08, 'neu': 0.798, 'compound': 0.6221}
+451	2009/03/12	{'pos': 0.054, 'neg': 0.152, 'neu': 0.793, 'compound': -0.5719}
+454	21 June 2009	{'pos': 0.0, 'neg': 0.2, 'neu': 0.8, 'compound': -0.8176}
+467	1998/11/10	{'pos': 0.035, 'neg': 0.0, 'neu': 0.965, 'compound': 0.2023}
+476	2009/02/19	{'pos': 0.018, 'neg': 0.149, 'neu': 0.833, 'compound': -0.8481}
+483	2007/03/21	{'pos': 0.0, 'neg': 0.062, 'neu': 0.938, 'compound': -0.3612}
+489	2010/10/03	{'pos': 0.195, 'neg': 0.0, 'neu': 0.805, 'compound': 0.6841}
+505	2009/03/13	{'pos': 0.046, 'neg': 0.128, 'neu': 0.826, 'compound': -0.5719}
+511	2001/09/01	{'pos': 0.0833, 'neg': 0.0517, 'neu': 0.8653, 'compound': 0.0507}
+534	1994/09/24	{'pos': 0.048, 'neg': 0.0, 'neu': 0.952, 'compound': 0.2732}
+542	1996/03/14	{'pos': 0.054, 'neg': 0.0, 'neu': 0.946, 'compound': 0.4215}
+544	2001/08/31	{'pos': 0.0, 'neg': 0.151, 'neu': 0.849, 'compound': -0.9186}
+545	1997/04/24	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+549	2012/03/09	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+566	12 August 2009	{'pos': 0.029, 'neg': 0.211, 'neu': 0.76, 'compound': -0.9382}
+570	2012/06/20	{'pos': 0.0395, 'neg': 0.1805, 'neu': 0.78, 'compound': -0.6228}
+574	1998/11/14	{'pos': 0.211, 'neg': 0.109, 'neu': 0.679, 'compound': 0.4019}
+577	2009/03/13	{'pos': 0.114, 'neg': 0.0575, 'neu': 0.8286, 'compound': 0.2318}
+590	2013/10/22	{'pos': 0.0425, 'neg': 0.148, 'neu': 0.8095, 'compound': -0.6285}
+596	1982/10/03	{'pos': 0.066, 'neg': 0.05, 'neu': 0.884, 'compound': 0.1854}
+598	2014/01/21	{'pos': 0.0, 'neg': 0.191, 'neu': 0.809, 'compound': -0.4433}
+606	2001/03/22	{'pos': 0.069, 'neg': 0.093, 'neu': 0.838, 'compound': -0.2023}
+631	2009/02/23	{'pos': 0.1362, 'neg': 0.1006, 'neu': 0.7633, 'compound': -0.1949}
+633	2014/01/20	{'pos': 0.063, 'neg': 0.0, 'neu': 0.937, 'compound': 0.3473}
+634	1995/10/11	{'pos': 0.22, 'neg': 0.0, 'neu': 0.78, 'compound': 0.8625}
+639	1993/02/03	{'pos': 0.167, 'neg': 0.0, 'neu': 0.833, 'compound': 0.6808}
+640	1999/07/04	{'pos': 0.149, 'neg': 0.0, 'neu': 0.851, 'compound': 0.802}
+657	1993/09/20	{'pos': 0.0, 'neg': 0.082, 'neu': 0.918, 'compound': -0.6597}
+676	2014/01/21	{'pos': 0.0, 'neg': 0.087, 'neu': 0.913, 'compound': -0.4019}
+688	2002/05/25	{'pos': 0.132, 'neg': 0.0, 'neu': 0.868, 'compound': 0.4404}
+690	2007/04/11	{'pos': 0.0, 'neg': 0.129, 'neu': 0.871, 'compound': -0.7003}
+702	1999/02/19	{'pos': 0.1665, 'neg': 0.0, 'neu': 0.8335, 'compound': 0.5554}
+707	2001/03/18	{'pos': 0.193, 'neg': 0.047, 'neu': 0.76, 'compound': 0.8225}
+711	2014/01/19	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+722	1994/02/18	{'pos': 0.0495, 'neg': 0.0905, 'neu': 0.86, 'compound': 0.0169}
+746	2001/06/15	{'pos': 0.0775, 'neg': 0.214, 'neu': 0.7085, 'compound': -0.5467}
+766	2010/06/21	{'pos': 0.068, 'neg': 0.046, 'neu': 0.887, 'compound': -0.0516}
+777	2013/12/16	{'pos': 0.0, 'neg': 0.056, 'neu': 0.944, 'compound': -0.5267}
+779	1998/11/15	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+785	2012/06/20	{'pos': 0.072, 'neg': 0.255, 'neu': 0.673, 'compound': -0.9153}
+786	2004/05/30	{'pos': 0.132, 'neg': 0.0, 'neu': 0.868, 'compound': 0.4404}
+789	2000/01/15	{'pos': 0.044, 'neg': 0.064, 'neu': 0.892, 'compound': -0.25}
+797	2012/03/08	{'pos': 0.0, 'neg': 0.134, 'neu': 0.866, 'compound': -0.5267}
+819	2012/02/21	{'pos': 0.086, 'neg': 0.0571, 'neu': 0.8567, 'compound': 0.0615}
+833	2013/06/21	{'pos': 0.027, 'neg': 0.213, 'neu': 0.76, 'compound': -0.9643}
+ 
+Worldwise
+5	1998/11/10	{'pos': 0.069, 'neg': 0.012, 'neu': 0.919, 'compound': 0.4925}
+58	1996/03/14	{'pos': 0.113, 'neg': 0.022, 'neu': 0.865, 'compound': 0.7838}
+114	1993/03/14	{'pos': 0.104, 'neg': 0.009, 'neu': 0.887, 'compound': 0.9201}
+143	1993/09/21	{'pos': 0.0605, 'neg': 0.0, 'neu': 0.9395, 'compound': 0.488}
+196	1998/01/19	{'pos': 0.1325, 'neg': 0.0945, 'neu': 0.773, 'compound': 0.2108}
+228	2012/03/08	{'pos': 0.031, 'neg': 0.0755, 'neu': 0.8935, 'compound': -0.1362}
+274	2014/01/21	{'pos': 0.0203, 'neg': 0.0854, 'neu': 0.8943, 'compound': -0.3684}
+309	2009/06/21	{'pos': 0.0617, 'neg': 0.2277, 'neu': 0.7106, 'compound': -0.9139}
+312	1995/11/22	{'pos': 0.0975, 'neg': 0.0575, 'neu': 0.8455, 'compound': 0.2966}
+538	2013/06/22	{'pos': 0.0715, 'neg': 0.0835, 'neu': 0.845, 'compound': -0.4099}
+553	2013/12/16	{'pos': 0.0955, 'neg': 0.134, 'neu': 0.77, 'compound': -0.4625}
+589	2014/01/19	{'pos': 0.0395, 'neg': 0.0, 'neu': 0.9605, 'compound': 0.445}
+591	1995/10/11	{'pos': 0.12, 'neg': 0.0, 'neu': 0.88, 'compound': 0.9157}
+593	2001/09/01	{'pos': 0.0835, 'neg': 0.0815, 'neu': 0.835, 'compound': -0.0521}
+594	2014/01/20	{'pos': 0.0355, 'neg': 0.0245, 'neu': 0.9405, 'compound': 0.0643}
+620	2010/06/22	{'pos': 0.0653, 'neg': 0.13, 'neu': 0.8047, 'compound': -0.7239}
+629	2011/07/29	{'pos': 0.041, 'neg': 0.19, 'neu': 0.769, 'compound': -0.945}
+659	1999/07/05	{'pos': 0.13, 'neg': 0.011, 'neu': 0.859, 'compound': 0.9442}
+730	2005/04/08	{'pos': 0.0721, 'neg': 0.1157, 'neu': 0.8123, 'compound': -0.3325}
+752	2014/01/21	{'pos': 0.0606, 'neg': 0.0147, 'neu': 0.925, 'compound': 0.3503}
+755	1993/01/20	{'pos': 0.109, 'neg': 0.0205, 'neu': 0.8705, 'compound': 0.6542}
+765	2001/03/18	{'pos': 0.103, 'neg': 0.033, 'neu': 0.864, 'compound': 0.8555}
+774	2011/06/21	{'pos': 0.086, 'neg': 0.124, 'neu': 0.79, 'compound': -0.6486}
+780	2001/06/15	{'pos': 0.0735, 'neg': 0.1175, 'neu': 0.809, 'compound': -0.3756}
+792	2012/06/22	{'pos': 0.046, 'neg': 0.099, 'neu': 0.856, 'compound': -0.743}
+808	2009/02/20	{'pos': 0.0337, 'neg': 0.0937, 'neu': 0.8727, 'compound': -0.4466}
+815	2009/03/13	{'pos': 0.08, 'neg': 0.075, 'neu': 0.845, 'compound': 0.5994}
+816	2012/06/21	{'pos': 0.098, 'neg': 0.1415, 'neu': 0.7605, 'compound': -0.7189}
+ 
+World Journal
+6	2007/03/20	{'pos': 0.0428, 'neg': 0.1351, 'neu': 0.8221, 'compound': -0.2594}
+81	2013/02/09	{'pos': 0.043, 'neg': 0.0596, 'neu': 0.8974, 'compound': -0.0946}
+126	2013/11/13	{'pos': 0.041, 'neg': 0.1276, 'neu': 0.831, 'compound': -0.3035}
+149	2009/06/23	{'pos': 0.0422, 'neg': 0.1194, 'neu': 0.8384, 'compound': -0.3009}
+180	2010/03/05	{'pos': 0.028, 'neg': 0.0715, 'neu': 0.9004, 'compound': -0.2056}
+279	2014/03/26	{'pos': 0.0801, 'neg': 0.0442, 'neu': 0.8759, 'compound': 0.1735}
+351	2012/06/21	{'pos': 0.079, 'neg': 0.1744, 'neu': 0.7464, 'compound': -0.3164}
+396	2014/01/21	{'pos': 0.0266, 'neg': 0.0923, 'neu': 0.8811, 'compound': -0.1858}
+501	1982/10/04	{'pos': 0.0924, 'neg': 0.0297, 'neu': 0.8779, 'compound': 0.3488}
+646	2009/02/23	{'pos': 0.0566, 'neg': 0.106, 'neu': 0.8377, 'compound': -0.1961}
+648	2013/02/24	{'pos': 0.1003, 'neg': 0.017, 'neu': 0.8826, 'compound': 0.4398}
+687	October 21, 2013	{'pos': 0.0856, 'neg': 0.0725, 'neu': 0.8419, 'compound': 0.0099}
+701	1999/11/15	{'pos': 0.1052, 'neg': 0.1031, 'neu': 0.7919, 'compound': -0.1654}
+739	2012/02/21	{'pos': 0.0929, 'neg': 0.026, 'neu': 0.881, 'compound': 0.1768}
+771	1984/05/04	{'pos': 0.0741, 'neg': 0.04, 'neu': 0.886, 'compound': 0.1172}
+ 
+Modern Rubicon
+8	20 January 2014	{'pos': 0.0, 'neg': 0.041, 'neu': 0.959, 'compound': -0.4019}
+21	20 January 2014	{'pos': 0.0, 'neg': 0.0375, 'neu': 0.9625, 'compound': -0.1909}
+30	21 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+43	20 January 2014	{'pos': 0.074, 'neg': 0.1145, 'neu': 0.811, 'compound': -0.3553}
+67	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+99	20 January 2014	{'pos': 0.021, 'neg': 0.074, 'neu': 0.905, 'compound': -0.4939}
+106	21 January 2014	{'pos': 0.16, 'neg': 0.043, 'neu': 0.798, 'compound': 0.6249}
+133	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+159	21 January 2014	{'pos': 0.0285, 'neg': 0.179, 'neu': 0.7925, 'compound': -0.1088}
+171	20 January 2014	{'pos': 0.066, 'neg': 0.214, 'neu': 0.72, 'compound': -0.8074}
+176	20 January 2014	{'pos': 0.0, 'neg': 0.163, 'neu': 0.837, 'compound': -0.7184}
+262	20 January 2014	{'pos': 0.0297, 'neg': 0.0313, 'neu': 0.939, 'compound': 0.0607}
+307	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+355	20 January 2014	{'pos': 0.0, 'neg': 0.22, 'neu': 0.78, 'compound': -0.6705}
+362	20 January 2014	{'pos': 0.0395, 'neg': 0.019, 'neu': 0.9415, 'compound': 0.1591}
+365	20 January 2014	{'pos': 0.022, 'neg': 0.24, 'neu': 0.738, 'compound': -0.7451}
+384	20 January 2014	{'pos': 0.0, 'neg': 0.1254, 'neu': 0.8747, 'compound': -0.5176}
+412	20 January 2014	{'pos': 0.062, 'neg': 0.044, 'neu': 0.894, 'compound': -0.0582}
+417	20 January 2014	{'pos': 0.0277, 'neg': 0.013, 'neu': 0.9593, 'compound': 0.0353}
+425	20 January 2014	{'pos': 0.0345, 'neg': 0.1735, 'neu': 0.792, 'compound': -0.5402}
+452	20 January 2014	{'pos': 0.024, 'neg': 0.025, 'neu': 0.951, 'compound': -0.0129}
+487	20 January 2014	{'pos': 0.054, 'neg': 0.0, 'neu': 0.946, 'compound': 0.3612}
+642	20 January 2014	{'pos': 0.0545, 'neg': 0.095, 'neu': 0.8505, 'compound': -0.3625}
+727	21 January 2014	{'pos': 0.0203, 'neg': 0.0337, 'neu': 0.9459, 'compound': -0.1273}
+772	20 January 2014	{'pos': 0.0, 'neg': 0.019, 'neu': 0.981, 'compound': -0.17}
+783	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+811	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+827	20 January 2014	{'pos': 0.017, 'neg': 0.0, 'neu': 0.983, 'compound': 0.1366}
+830	20 January 2014	{'pos': 0.079, 'neg': 0.0635, 'neu': 0.8575, 'compound': 0.2363}
+831	20 January 2014	{'pos': 0.041, 'neg': 0.283, 'neu': 0.676, 'compound': -0.8782}
+ 
+Kronos Star
+9	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0705, 'neu': 0.9295, 'compound': -0.3404}
+28	Marcella Trapani	{'pos': 0.026, 'neg': 0.082, 'neu': 0.892, 'compound': -0.3982}
+31	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+38	Lelio Masin	{'pos': 0.096, 'neg': 0.0647, 'neu': 0.8397, 'compound': 0.0422}
+39	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0415, 'neu': 0.9585, 'compound': -0.2107}
+42	Donato Petri	{'pos': 0.0837, 'neg': 0.0, 'neu': 0.9163, 'compound': 0.5702}
+70	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.1275, 'neu': 0.8725, 'compound': -0.2929}
+85	Cato Rossini, Marcella Trapani	{'pos': 0.043, 'neg': 0.0, 'neu': 0.957, 'compound': 0.1118}
+130	Marcella Trapani	{'pos': 0.0426, 'neg': 0.0707, 'neu': 0.887, 'compound': -0.4205}
+163	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.026, 'neu': 0.974, 'compound': -0.1909}
+168	Marcella Trapani	{'pos': 0.0075, 'neg': 0.0738, 'neu': 0.9187, 'compound': -0.478}
+174	Cato Rossini	{'pos': 0.0326, 'neg': 0.0, 'neu': 0.9673, 'compound': 0.2967}
+181	Marcella Trapani	{'pos': 0.0617, 'neg': 0.1076, 'neu': 0.8306, 'compound': -0.3818}
+246	Eva Thayer	{'pos': 0.057, 'neg': 0.0245, 'neu': 0.9185, 'compound': 0.401}
+273	Marcella Trapani	{'pos': 0.053, 'neg': 0.065, 'neu': 0.8816, 'compound': -0.0745}
+281	Cato Rossini, Marcella Trapani	{'pos': 0.0455, 'neg': 0.0, 'neu': 0.9545, 'compound': 0.17}
+289	Cato Rossini, Marcella Trapani	{'pos': 0.047, 'neg': 0.0, 'neu': 0.953, 'compound': 0.17}
+298	Cato Rossini, Marcella Trapani	{'pos': 0.057, 'neg': 0.023, 'neu': 0.92, 'compound': 0.2294}
+306	Eva Thayer	{'pos': 0.0537, 'neg': 0.0847, 'neu': 0.8616, 'compound': -0.2508}
+321	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.049, 'neu': 0.951, 'compound': -0.0258}
+329	Cato Rossini, Marcella Trapani	{'pos': 0.075, 'neg': 0.0, 'neu': 0.925, 'compound': 0.3592}
+339	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+359	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0615, 'neu': 0.9385, 'compound': -0.4495}
+364	Marcella Trapani	{'pos': 0.0527, 'neg': 0.097, 'neu': 0.851, 'compound': -0.5142}
+368	Cato Rossini, Marcella Trapani	{'pos': 0.052, 'neg': 0.0, 'neu': 0.948, 'compound': 0.2202}
+376	Cato Rossini, Marcella Trapani	{'pos': 0.062, 'neg': 0.0785, 'neu': 0.8595, 'compound': -0.064}
+379	Marcella Trapani	{'pos': 0.03, 'neg': 0.058, 'neu': 0.912, 'compound': -0.0561}
+381	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0985, 'neu': 0.9015, 'compound': -0.3825}
+411	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+421	Donato Petri	{'pos': 0.08, 'neg': 0.0356, 'neu': 0.8843, 'compound': 0.4684}
+435	Cato Rossini, Marcella Trapani	{'pos': 0.0455, 'neg': 0.0, 'neu': 0.9545, 'compound': 0.2107}
+441	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+461	Marcella Trapani	{'pos': 0.041, 'neg': 0.041, 'neu': 0.9183, 'compound': -0.0566}
+462	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0415, 'neu': 0.9585, 'compound': -0.2195}
+481	Eva Thayer	{'pos': 0.0582, 'neg': 0.0, 'neu': 0.9417, 'compound': 0.3766}
+488	Donato Petri	{'pos': 0.0685, 'neg': 0.0, 'neu': 0.9315, 'compound': 0.4738}
+495	Cato Rossini, Marcella Trapani	{'pos': 0.0345, 'neg': 0.0, 'neu': 0.9655, 'compound': 0.2384}
+508	Marcella Trapani	{'pos': 0.0625, 'neg': 0.1008, 'neu': 0.8367, 'compound': -0.3471}
+518	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.009, 'neu': 0.991, 'compound': -0.0129}
+524	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+526	Lelio Masin	{'pos': 0.0885, 'neg': 0.0, 'neu': 0.9115, 'compound': 0.468}
+540	Cato Rossini, Marcella Trapani	{'pos': 0.03, 'neg': 0.14, 'neu': 0.83, 'compound': -0.4329}
+541	Eva Thayer	{'pos': 0.0395, 'neg': 0.043, 'neu': 0.9175, 'compound': -0.1909}
+548	Eva Thayer	{'pos': 0.0275, 'neg': 0.0875, 'neu': 0.885, 'compound': -0.4477}
+569	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0115, 'neu': 0.9885, 'compound': -0.0322}
+582	Cato Rossini, Marcella Trapani	{'pos': 0.0865, 'neg': 0.0, 'neu': 0.9135, 'compound': 0.2929}
+623	Marcella Trapani	{'pos': 0.0528, 'neg': 0.1441, 'neu': 0.8033, 'compound': -0.5484}
+630	Lelio Masin	{'pos': 0.0457, 'neg': 0.0077, 'neu': 0.9466, 'compound': 0.2956}
+637	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+650	Donato Petri	{'pos': 0.108, 'neg': 0.0153, 'neu': 0.8767, 'compound': 0.4814}
+666	Donato Petri	{'pos': 0.0995, 'neg': 0.0, 'neu': 0.9005, 'compound': 0.4891}
+674	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0785, 'neu': 0.9215, 'compound': -0.2384}
+678	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0225, 'neu': 0.9775, 'compound': -0.1132}
+692	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0515, 'neu': 0.9485, 'compound': -0.3675}
+693	Marcella Trapani	{'pos': 0.017, 'neg': 0.0834, 'neu': 0.8995, 'compound': -0.318}
+710	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.2335, 'neu': 0.7665, 'compound': -0.443}
+761	Cato Rossini, Marcella Trapani	{'pos': 0.0185, 'neg': 0.053, 'neu': 0.9285, 'compound': -0.2384}
+763	Cato Rossini, Marcella Trapani	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+776	Cato Rossini, Marcella Trapani	{'pos': 0.0175, 'neg': 0.0315, 'neu': 0.951, 'compound': -0.1012}
+781	Marcella Trapani	{'pos': 0.0312, 'neg': 0.0923, 'neu': 0.8764, 'compound': -0.2669}
+790	Cato Rossini, Marcella Trapani	{'pos': 0.01, 'neg': 0.0, 'neu': 0.99, 'compound': 0.0129}
+820	Marcella Trapani	{'pos': 0.0465, 'neg': 0.051, 'neu': 0.9025, 'compound': 0.1909}
+ 
+Homeland Illumination
+10	Maha Salo	{'pos': 0.0135, 'neg': 0.101, 'neu': 0.8855, 'compound': -0.4414}
+18	Petrus Gerhard	{'pos': 0.0821, 'neg': 0.1295, 'neu': 0.7884, 'compound': -0.2524}
+33	7 September 2012	{'pos': 0.0735, 'neg': 0.0763, 'neu': 0.8502, 'compound': 0.0205}
+35	Petrus Gerhard	{'pos': 0.0689, 'neg': 0.0576, 'neu': 0.8734, 'compound': -0.1083}
+69	Petrus Gerhard	{'pos': 0.0386, 'neg': 0.0565, 'neu': 0.9049, 'compound': -0.1331}
+73	Petrus Gerhard	{'pos': 0.0836, 'neg': 0.088, 'neu': 0.8287, 'compound': 0.0853}
+87	Maha Salo	{'pos': 0.0425, 'neg': 0.02, 'neu': 0.9375, 'compound': 0.2009}
+94	Maha Salo	{'pos': 0.0185, 'neg': 0.0, 'neu': 0.9815, 'compound': 0.0386}
+110	Maha Salo	{'pos': 0.0605, 'neg': 0.0115, 'neu': 0.928, 'compound': 0.4495}
+128	Petrus Gerhard	{'pos': 0.029, 'neg': 0.0, 'neu': 0.9709, 'compound': 0.1906}
+134	Maha Salo	{'pos': 0.0288, 'neg': 0.0524, 'neu': 0.9188, 'compound': -0.0943}
+144	Maha Salo	{'pos': 0.0, 'neg': 0.0405, 'neu': 0.9595, 'compound': -0.2633}
+161	Petrus Gerhard	{'pos': 0.0387, 'neg': 0.1724, 'neu': 0.7889, 'compound': -0.6171}
+172	Maha Salo	{'pos': 0.049, 'neg': 0.0175, 'neu': 0.9335, 'compound': 0.3592}
+215	Maha Salo	{'pos': 0.0475, 'neg': 0.0875, 'neu': 0.865, 'compound': -0.148}
+221	Maha Salo	{'pos': 0.0, 'neg': 0.0883, 'neu': 0.9117, 'compound': -0.3782}
+225	Petrus Gerhard	{'pos': 0.0387, 'neg': 0.1724, 'neu': 0.7889, 'compound': -0.6171}
+254	Maha Salo	{'pos': 0.0441, 'neg': 0.068, 'neu': 0.8879, 'compound': -0.0476}
+283	Maha Salo	{'pos': 0.0, 'neg': 0.16, 'neu': 0.84, 'compound': -0.3825}
+290	Petrus Gerhard	{'pos': 0.0385, 'neg': 0.0484, 'neu': 0.9132, 'compound': -0.0468}
+293	Petrus Gerhard	{'pos': 0.0222, 'neg': 0.1764, 'neu': 0.8017, 'compound': -0.5355}
+294	Petrus Gerhard	{'pos': 0.0904, 'neg': 0.0443, 'neu': 0.8654, 'compound': 0.0964}
+297	Maha Salo	{'pos': 0.0358, 'neg': 0.0736, 'neu': 0.8906, 'compound': -0.1079}
+313	Maha Salo	{'pos': 0.0175, 'neg': 0.0325, 'neu': 0.95, 'compound': -0.1174}
+348	Maha Salo	{'pos': 0.039, 'neg': 0.0115, 'neu': 0.949, 'compound': 0.3761}
+350	Maha Salo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+358	Maha Salo	{'pos': 0.0477, 'neg': 0.0287, 'neu': 0.9235, 'compound': 0.1523}
+366	Maha Salo	{'pos': 0.0, 'neg': 0.067, 'neu': 0.933, 'compound': -0.2929}
+399	Maha Salo	{'pos': 0.0525, 'neg': 0.0112, 'neu': 0.9363, 'compound': 0.2208}
+407	Maha Salo	{'pos': 0.0325, 'neg': 0.0945, 'neu': 0.873, 'compound': -0.4852}
+415	Maha Salo	{'pos': 0.0, 'neg': 0.067, 'neu': 0.933, 'compound': -0.2712}
+426	Maha Salo	{'pos': 0.0, 'neg': 0.0455, 'neu': 0.9545, 'compound': -0.148}
+427	Maha Salo	{'pos': 0.014, 'neg': 0.016, 'neu': 0.97, 'compound': -0.0258}
+437	Petrus Gerhard	{'pos': 0.0904, 'neg': 0.044, 'neu': 0.8657, 'compound': 0.0964}
+468	Maha Salo	{'pos': 0.0598, 'neg': 0.0646, 'neu': 0.8756, 'compound': 0.1035}
+470	Maha Salo	{'pos': 0.0, 'neg': 0.1775, 'neu': 0.8225, 'compound': -0.4472}
+484	Maha Salo	{'pos': 0.0, 'neg': 0.0705, 'neu': 0.9295, 'compound': -0.4295}
+502	Petrus Gerhard	{'pos': 0.0739, 'neg': 0.0304, 'neu': 0.8959, 'compound': 0.139}
+522	Maha Salo	{'pos': 0.035, 'neg': 0.0595, 'neu': 0.9055, 'compound': -0.1132}
+537	Maha Salo	{'pos': 0.0, 'neg': 0.0485, 'neu': 0.9515, 'compound': -0.2633}
+556	Maha Salo	{'pos': 0.022, 'neg': 0.0, 'neu': 0.978, 'compound': 0.1118}
+563	Maha Salo	{'pos': 0.0, 'neg': 0.101, 'neu': 0.899, 'compound': -0.2929}
+567	Maha Salo	{'pos': 0.0255, 'neg': 0.0565, 'neu': 0.918, 'compound': -0.1909}
+579	Maha Salo	{'pos': 0.074, 'neg': 0.0, 'neu': 0.926, 'compound': 0.2294}
+583	Maha Salo	{'pos': 0.017, 'neg': 0.0585, 'neu': 0.9245, 'compound': -0.2384}
+592	Maha Salo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+609	Maha Salo	{'pos': 0.016, 'neg': 0.0, 'neu': 0.984, 'compound': 0.1366}
+616	Maha Salo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+625	Maha Salo	{'pos': 0.0765, 'neg': 0.0, 'neu': 0.9235, 'compound': 0.2009}
+627	Petrus Gerhard	{'pos': 0.018, 'neg': 0.0432, 'neu': 0.9388, 'compound': 0.0}
+658	Petrus Gerhard	{'pos': 0.0556, 'neg': 0.089, 'neu': 0.8555, 'compound': -0.1281}
+669	Maha Salo	{'pos': 0.0, 'neg': 0.032, 'neu': 0.968, 'compound': -0.148}
+681	Petrus Gerhard	{'pos': 0.0568, 'neg': 0.015, 'neu': 0.9282, 'compound': 0.1984}
+684	Maha Salo	{'pos': 0.006, 'neg': 0.0839, 'neu': 0.9099, 'compound': -0.3246}
+697	Maha Salo	{'pos': 0.0, 'neg': 0.042, 'neu': 0.958, 'compound': -0.148}
+719	Maha Salo	{'pos': 0.0, 'neg': 0.0455, 'neu': 0.9545, 'compound': -0.2633}
+733	Maha Salo	{'pos': 0.0, 'neg': 0.0075, 'neu': 0.9925, 'compound': -0.0258}
+737	Petrus Gerhard	{'pos': 0.0495, 'neg': 0.0265, 'neu': 0.924, 'compound': 0.1591}
+738	Maha Salo	{'pos': 0.027, 'neg': 0.075, 'neu': 0.898, 'compound': -0.3974}
+743	Petrus Gerhard	{'pos': 0.0765, 'neg': 0.0774, 'neu': 0.8459, 'compound': -0.1124}
+744	Maha Salo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+770	Petrus Gerhard	{'pos': 0.0548, 'neg': 0.2011, 'neu': 0.7439, 'compound': -0.4492}
+804	Maha Salo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+842	Maha Salo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+ 
+Tethys News
+11	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+26	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+32	20 January 2014	{'pos': 0.065, 'neg': 0.077, 'neu': 0.858, 'compound': -0.1027}
+44	20 January 2014	{'pos': 0.0, 'neg': 0.08, 'neu': 0.92, 'compound': -0.3818}
+76	20 January 2014	{'pos': 0.08, 'neg': 0.052, 'neu': 0.868, 'compound': 0.4019}
+78	20 January 2014	{'pos': 0.04, 'neg': 0.235, 'neu': 0.725, 'compound': -0.8834}
+90	20 January 2014	{'pos': 0.0, 'neg': 0.072, 'neu': 0.928, 'compound': -0.4215}
+92	20 January 2014	{'pos': 0.094, 'neg': 0.118, 'neu': 0.788, 'compound': -0.128}
+122	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+173	20 January 2014	{'pos': 0.071, 'neg': 0.074, 'neu': 0.855, 'compound': -0.0258}
+193	20 January 2014	{'pos': 0.0, 'neg': 0.064, 'neu': 0.936, 'compound': -0.4215}
+253	20 January 2014	{'pos': 0.0, 'neg': 0.165, 'neu': 0.835, 'compound': -0.7579}
+392	20 January 2014	{'pos': 0.0, 'neg': 0.06, 'neu': 0.94, 'compound': -0.3818}
+395	20 January 2014	{'pos': 0.094, 'neg': 0.0, 'neu': 0.906, 'compound': 0.4404}
+400	20 January 2014	{'pos': 0.0, 'neg': 0.095, 'neu': 0.905, 'compound': -0.6249}
+419	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+430	20 January 2014	{'pos': 0.0, 'neg': 0.093, 'neu': 0.907, 'compound': -0.5859}
+453	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+507	20 January 2014	{'pos': 0.065, 'neg': 0.042, 'neu': 0.894, 'compound': 0.296}
+510	20 January 2014	{'pos': 0.025, 'neg': 0.095, 'neu': 0.88, 'compound': -0.4588}
+532	20 January 2014	{'pos': 0.031, 'neg': 0.043, 'neu': 0.926, 'compound': -0.1779}
+533	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+539	20 January 2014	{'pos': 0.0, 'neg': 0.275, 'neu': 0.725, 'compound': -0.7351}
+558	20 January 2014	{'pos': 0.132, 'neg': 0.071, 'neu': 0.797, 'compound': 0.296}
+585	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+600	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+613	20 January 2014	{'pos': 0.023, 'neg': 0.022, 'neu': 0.954, 'compound': 0.0129}
+635	20 January 2014	{'pos': 0.068, 'neg': 0.0, 'neu': 0.932, 'compound': 0.4019}
+653	20 January 2014	{'pos': 0.0, 'neg': 0.079, 'neu': 0.921, 'compound': -0.0516}
+685	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+726	20 January 2014	{'pos': 0.025, 'neg': 0.084, 'neu': 0.891, 'compound': -0.6249}
+759	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+813	20 January 2014	{'pos': 0.059, 'neg': 0.073, 'neu': 0.868, 'compound': -0.296}
+829	20 January 2014	{'pos': 0.0, 'neg': 0.375, 'neu': 0.625, 'compound': -0.886}
+838	20 January 2014	{'pos': 0.0, 'neg': 0.062, 'neu': 0.938, 'compound': -0.8012}
+ 
+Centrum Sentinel
+13	20 January 2014	{'pos': 0.0, 'neg': 0.259, 'neu': 0.741, 'compound': -0.7184}
+15	20 January 2014	{'pos': 0.069, 'neg': 0.069, 'neu': 0.862, 'compound': -0.25}
+56	20 January 2014	{'pos': 0.065, 'neg': 0.0, 'neu': 0.935, 'compound': 0.3818}
+118	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+142	21 January 2014	{'pos': 0.064, 'neg': 0.089, 'neu': 0.847, 'compound': -0.312}
+199	20 January 2014	{'pos': 0.0, 'neg': 0.063, 'neu': 0.937, 'compound': -0.5267}
+203	20 January 2014	{'pos': 0.0, 'neg': 0.12, 'neu': 0.88, 'compound': -0.5423}
+208	20 January 2014	{'pos': 0.0, 'neg': 0.121, 'neu': 0.879, 'compound': -0.5859}
+232	20 January 2014	{'pos': 0.0, 'neg': 0.121, 'neu': 0.879, 'compound': -0.8126}
+280	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+299	20 January 2014	{'pos': 0.08, 'neg': 0.148, 'neu': 0.772, 'compound': -0.296}
+308	20 January 2014	{'pos': 0.0, 'neg': 0.071, 'neu': 0.929, 'compound': -0.296}
+320	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+325	20 January 2014	{'pos': 0.059, 'neg': 0.0, 'neu': 0.941, 'compound': 0.4019}
+386	20 January 2014	{'pos': 0.031, 'neg': 0.063, 'neu': 0.906, 'compound': -0.2263}
+418	21 January 2014	{'pos': 0.03, 'neg': 0.053, 'neu': 0.917, 'compound': -0.25}
+434	20 January 2014	{'pos': 0.052, 'neg': 0.0, 'neu': 0.948, 'compound': 0.6249}
+485	20 January 2014	{'pos': 0.069, 'neg': 0.026, 'neu': 0.905, 'compound': 0.5368}
+486	20 January 2014	{'pos': 0.058, 'neg': 0.126, 'neu': 0.816, 'compound': -0.7299}
+490	20 January 2014	{'pos': 0.114, 'neg': 0.0, 'neu': 0.886, 'compound': 0.4019}
+521	20 January 2014	{'pos': 0.0, 'neg': 0.042, 'neu': 0.958, 'compound': -0.296}
+551	20 January 2014	{'pos': 0.0, 'neg': 0.28, 'neu': 0.72, 'compound': -0.765}
+562	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+597	20 January 2014	{'pos': 0.084, 'neg': 0.0, 'neu': 0.916, 'compound': 0.8519}
+624	21 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+649	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+655	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+665	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+708	21 January 2014	{'pos': 0.052, 'neg': 0.134, 'neu': 0.815, 'compound': -0.9511}
+717	20 January 2014	{'pos': 0.044, 'neg': 0.042, 'neu': 0.914, 'compound': 0.0258}
+749	20 January 2014	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+793	21 January 2014	{'pos': 0.0465, 'neg': 0.017, 'neu': 0.9365, 'compound': 0.4138}
+817	20 January 2014	{'pos': 0.095, 'neg': 0.0, 'neu': 0.905, 'compound': 0.6908}
+828	20 January 2014	{'pos': 0.139, 'neg': 0.089, 'neu': 0.772, 'compound': 0.0772}
+841	20 January 2014	{'pos': 0.062, 'neg': 0.059, 'neu': 0.879, 'compound': 0.0516}
+844	20 January 2014	{'pos': 0.0, 'neg': 0.273, 'neu': 0.727, 'compound': -0.875}
+ 
+The Wrap
+17	2005/04/06	{'pos': 0.049, 'neg': 0.133, 'neu': 0.818, 'compound': -0.3949}
+116	2012/06/21	{'pos': 0.08, 'neg': 0.1036, 'neu': 0.8165, 'compound': -0.2293}
+158	2010/06/21	{'pos': 0.0732, 'neg': 0.205, 'neu': 0.7216, 'compound': -0.4278}
+183	1998/04/26	{'pos': 0.0849, 'neg': 0.0363, 'neu': 0.8791, 'compound': 0.1179}
+187	2001/03/24	{'pos': 0.0208, 'neg': 0.0863, 'neu': 0.8932, 'compound': -0.3099}
+207	2012/04/11	{'pos': 0.0573, 'neg': 0.0243, 'neu': 0.9183, 'compound': 0.1305}
+217	2009/03/09	{'pos': 0.0946, 'neg': 0.0936, 'neu': 0.8118, 'compound': -0.0829}
+236	2007/03/22	{'pos': 0.0344, 'neg': 0.111, 'neu': 0.8546, 'compound': -0.3141}
+243	2004/05/30	{'pos': 0.056, 'neg': 0.0, 'neu': 0.944, 'compound': 0.4404}
+271	2000/06/02	{'pos': 0.0118, 'neg': 0.0478, 'neu': 0.9404, 'compound': -0.1422}
+349	2002/05/27	{'pos': 0.034, 'neg': 0.0705, 'neu': 0.8957, 'compound': -0.2675}
+408	1998/11/15	{'pos': 0.0513, 'neg': 0.0173, 'neu': 0.9313, 'compound': 0.2395}
+409	1998/08/21	{'pos': 0.0276, 'neg': 0.1668, 'neu': 0.8056, 'compound': -0.5901}
+445	2009/06/20	{'pos': 0.0599, 'neg': 0.0715, 'neu': 0.8685, 'compound': 0.0129}
+448	1998/03/21	{'pos': 0.0775, 'neg': 0.0513, 'neu': 0.8709, 'compound': 0.0062}
+492	1998/05/17	{'pos': 0.0213, 'neg': 0.0588, 'neu': 0.9201, 'compound': -0.0395}
+500	1993/02/04	{'pos': 0.1028, 'neg': 0.0187, 'neu': 0.8784, 'compound': 0.3679}
+520	2012/09/08	{'pos': 0.1202, 'neg': 0.0662, 'neu': 0.8134, 'compound': 0.1627}
+680	2001/09/02	{'pos': 0.066, 'neg': 0.1341, 'neu': 0.8, 'compound': -0.2794}
+704	2014/01/19	{'pos': 0.0835, 'neg': 0.0, 'neu': 0.9165, 'compound': 0.5061}
+740	1999/07/09	{'pos': 0.0887, 'neg': 0.1105, 'neu': 0.8005, 'compound': 0.0717}
+769	2013/06/21	{'pos': 0.0448, 'neg': 0.1011, 'neu': 0.8543, 'compound': -0.1831}
+788	2009/03/13	{'pos': 0.0528, 'neg': 0.078, 'neu': 0.869, 'compound': -0.2182}
+799	2011/06/22	{'pos': 0.0454, 'neg': 0.1774, 'neu': 0.777, 'compound': -0.7211}
+814	1998/05/17	{'pos': 0.0757, 'neg': 0.056, 'neu': 0.8681, 'compound': -0.0598}
+843	2012/11/12	{'pos': 0.06, 'neg': 0.0656, 'neu': 0.8744, 'compound': -0.1789}
+ 
+News Desk
+19	2009/03/13	{'pos': 0.0327, 'neg': 0.1474, 'neu': 0.8196, 'compound': -0.5676}
+60	1997/04/25	{'pos': 0.046, 'neg': 0.078, 'neu': 0.876, 'compound': -0.2783}
+61	2013/12/18	{'pos': 0.0367, 'neg': 0.2405, 'neu': 0.7228, 'compound': -0.7521}
+91	2000/08/18	{'pos': 0.0694, 'neg': 0.1067, 'neu': 0.8243, 'compound': -0.3584}
+104	2012/03/10	{'pos': 0.092, 'neg': 0.191, 'neu': 0.7167, 'compound': -0.2514}
+146	2009/02/21	{'pos': 0.0498, 'neg': 0.122, 'neu': 0.8282, 'compound': -0.229}
+190	2010/06/15	{'pos': 0.0616, 'neg': 0.1703, 'neu': 0.768, 'compound': -0.6976}
+241	2007/04/12	{'pos': 0.0182, 'neg': 0.044, 'neu': 0.9378, 'compound': -0.2236}
+259	2014/01/19	{'pos': 0.033, 'neg': 0.0, 'neu': 0.967, 'compound': 0.2202}
+311	2000/10/03	{'pos': 0.1185, 'neg': 0.028, 'neu': 0.8535, 'compound': 0.5574}
+402	2014/01/20	{'pos': 0.03, 'neg': 0.063, 'neu': 0.907, 'compound': -0.2879}
+404	1997/10/17	{'pos': 0.0688, 'neg': 0.0416, 'neu': 0.8899, 'compound': 0.0358}
+464	2005/09/25	{'pos': 0.0275, 'neg': 0.1787, 'neu': 0.7937, 'compound': -0.6811}
+512	2014/01/20	{'pos': 0.05, 'neg': 0.1417, 'neu': 0.8083, 'compound': -0.3831}
+525	By Haneson Ngohebo	{'pos': 0.0578, 'neg': 0.038, 'neu': 0.9043, 'compound': 0.1201}
+571	2011/05/15	{'pos': 0.063, 'neg': 0.188, 'neu': 0.749, 'compound': -0.7255}
+588	2010/10/03	{'pos': 0.1831, 'neg': 0.0, 'neu': 0.817, 'compound': 0.6166}
+605	1998/11/17	{'pos': 0.0776, 'neg': 0.0613, 'neu': 0.861, 'compound': 0.0229}
+644	2010/06/22	{'pos': 0.1109, 'neg': 0.1711, 'neu': 0.7177, 'compound': -0.2183}
+709	2012/08/23	{'pos': 0.0456, 'neg': 0.1168, 'neu': 0.8375, 'compound': -0.2682}
+721	2014/01/20	{'pos': 0.0611, 'neg': 0.0315, 'neu': 0.9073, 'compound': 0.1242}
+757	2011/07/28	{'pos': 0.0296, 'neg': 0.1943, 'neu': 0.776, 'compound': -0.834}
+801	2009/06/21	{'pos': 0.0596, 'neg': 0.2532, 'neu': 0.6874, 'compound': -0.6932}
+818	2014/01/20	{'pos': 0.0686, 'neg': 0.0548, 'neu': 0.8768, 'compound': -0.046}
+839	2011/11/24	{'pos': 0.0756, 'neg': 0.3205, 'neu': 0.6038, 'compound': -0.5372}
+ 
+The Truth
+20	2009/06/21	{'pos': 0.1061, 'neg': 0.181, 'neu': 0.713, 'compound': -0.3661}
+41	2001/03/18	{'pos': 0.094, 'neg': 0.04, 'neu': 0.866, 'compound': 0.7506}
+96	2011/07/28	{'pos': 0.083, 'neg': 0.192, 'neu': 0.724, 'compound': -0.885}
+112	1996/03/15	{'pos': 0.107, 'neg': 0.0, 'neu': 0.893, 'compound': 0.8315}
+156	2012/06/23	{'pos': 0.054, 'neg': 0.087, 'neu': 0.859, 'compound': -0.5859}
+165	2009/02/19	{'pos': 0.0137, 'neg': 0.104, 'neu': 0.8823, 'compound': -0.6885}
+166	1998/11/10	{'pos': 0.039, 'neg': 0.0125, 'neu': 0.949, 'compound': 0.1121}
+230	1995/11/23	{'pos': 0.1515, 'neg': 0.0425, 'neu': 0.806, 'compound': 0.7606}
+240	2014/01/19	{'pos': 0.065, 'neg': 0.0, 'neu': 0.935, 'compound': 0.5704}
+361	2011/06/22	{'pos': 0.019, 'neg': 0.124, 'neu': 0.857, 'compound': -0.7717}
+394	2013/06/21	{'pos': 0.087, 'neg': 0.0815, 'neu': 0.8315, 'compound': -0.0741}
+406	1998/01/19	{'pos': 0.1155, 'neg': 0.0915, 'neu': 0.7935, 'compound': 0.1527}
+463	2014/01/21	{'pos': 0.1019, 'neg': 0.0547, 'neu': 0.8433, 'compound': 0.2696}
+474	1995/10/12	{'pos': 0.086, 'neg': 0.0, 'neu': 0.914, 'compound': 0.8087}
+480	2013/12/16	{'pos': 0.057, 'neg': 0.222, 'neu': 0.7205, 'compound': -0.8593}
+552	1993/09/20	{'pos': 0.118, 'neg': 0.0145, 'neu': 0.867, 'compound': 0.7724}
+561	2009/03/14	{'pos': 0.077, 'neg': 0.097, 'neu': 0.826, 'compound': 0.1655}
+581	2010/06/22	{'pos': 0.104, 'neg': 0.152, 'neu': 0.744, 'compound': -0.5083}
+584	2012/03/08	{'pos': 0.088, 'neg': 0.095, 'neu': 0.817, 'compound': 0.1262}
+599	2014/01/21	{'pos': 0.071, 'neg': 0.0873, 'neu': 0.8416, 'compound': -0.0299}
+607	2014/01/20	{'pos': 0.061, 'neg': 0.054, 'neu': 0.885, 'compound': -0.0375}
+621	2005/04/08	{'pos': 0.0253, 'neg': 0.1573, 'neu': 0.8173, 'compound': -0.5596}
+632	1993/01/20	{'pos': 0.1935, 'neg': 0.0195, 'neu': 0.787, 'compound': 0.8452}
+645	2012/06/21	{'pos': 0.044, 'neg': 0.129, 'neu': 0.827, 'compound': -0.8442}
+668	2001/06/15	{'pos': 0.055, 'neg': 0.1165, 'neu': 0.8285, 'compound': -0.5994}
+724	1999/07/04	{'pos': 0.111, 'neg': 0.019, 'neu': 0.87, 'compound': 0.9165}
+794	2001/08/31	{'pos': 0.1105, 'neg': 0.0795, 'neu': 0.81, 'compound': -0.0298}
+795	1993/03/14	{'pos': 0.126, 'neg': 0.0, 'neu': 0.874, 'compound': 0.9409}
+ 
+Daily Pegasus
+22	2001/09/02	{'pos': 0.0591, 'neg': 0.0804, 'neu': 0.8603, 'compound': 0.0364}
+51	2009/03/09	{'pos': 0.0856, 'neg': 0.0564, 'neu': 0.858, 'compound': 0.1966}
+55	2014/03/26	{'pos': 0.0691, 'neg': 0.0488, 'neu': 0.8819, 'compound': -0.0257}
+72	2000/06/01	{'pos': 0.0298, 'neg': 0.028, 'neu': 0.9422, 'compound': -0.0773}
+101	2012/11/11	{'pos': 0.0524, 'neg': 0.0292, 'neu': 0.9184, 'compound': 0.0137}
+115	2002/05/27	{'pos': 0.0275, 'neg': 0.032, 'neu': 0.9405, 'compound': -0.0966}
+157	2009/03/13	{'pos': 0.109, 'neg': 0.0312, 'neu': 0.8599, 'compound': 0.2358}
+175	2011/06/21	{'pos': 0.0333, 'neg': 0.1769, 'neu': 0.7899, 'compound': -0.6895}
+182	2007/03/21	{'pos': 0.0154, 'neg': 0.0864, 'neu': 0.8982, 'compound': -0.3694}
+257	2010/06/21	{'pos': 0.0672, 'neg': 0.1792, 'neu': 0.7536, 'compound': -0.4166}
+264	1998/05/17	{'pos': 0.0839, 'neg': 0.0679, 'neu': 0.848, 'compound': -0.095}
+269	2009/06/21	{'pos': 0.0993, 'neg': 0.0822, 'neu': 0.8186, 'compound': 0.1426}
+272	2004/05/31	{'pos': 0.036, 'neg': 0.0, 'neu': 0.964, 'compound': 0.2732}
+317	1998/03/21	{'pos': 0.0559, 'neg': 0.0667, 'neu': 0.8772, 'compound': -0.0859}
+465	2001/03/23	{'pos': 0.0295, 'neg': 0.0515, 'neu': 0.9187, 'compound': -0.1193}
+482	1999/07/08	{'pos': 0.067, 'neg': 0.048, 'neu': 0.8847, 'compound': 0.1683}
+568	1998/05/17	{'pos': 0.0053, 'neg': 0.0, 'neu': 0.9947, 'compound': 0.0383}
+572	2012/06/22	{'pos': 0.0879, 'neg': 0.0987, 'neu': 0.8132, 'compound': -0.2268}
+602	2014/01/19	{'pos': 0.102, 'neg': 0.0, 'neu': 0.898, 'compound': 0.5931}
+628	1998/11/16	{'pos': 0.0823, 'neg': 0.03, 'neu': 0.8877, 'compound': 0.2857}
+647	1998/04/27	{'pos': 0.0564, 'neg': 0.0284, 'neu': 0.9154, 'compound': 0.089}
+700	2013/06/22	{'pos': 0.0544, 'neg': 0.0909, 'neu': 0.8549, 'compound': -0.0964}
+748	1993/02/04	{'pos': 0.1013, 'neg': 0.017, 'neu': 0.8819, 'compound': 0.4428}
+760	2005/04/07	{'pos': 0.0113, 'neg': 0.097, 'neu': 0.892, 'compound': -0.4605}
+773	2012/04/10	{'pos': 0.0233, 'neg': 0.0403, 'neu': 0.9363, 'compound': -0.1701}
+791	1998/08/21	{'pos': 0.0196, 'neg': 0.1488, 'neu': 0.8314, 'compound': -0.5761}
+ 
+The General Post
+23	2009/02/22	{'pos': 0.0268, 'neg': 0.0834, 'neu': 0.8898, 'compound': -0.4041}
+97	1995/04/01	{'pos': 0.031, 'neg': 0.0566, 'neu': 0.9123, 'compound': -0.2267}
+107	2014/01/20	{'pos': 0.1041, 'neg': 0.073, 'neu': 0.823, 'compound': 0.1003}
+131	2000/01/17	{'pos': 0.135, 'neg': 0.03, 'neu': 0.835, 'compound': 0.3772}
+192	1994/09/25	{'pos': 0.0823, 'neg': 0.023, 'neu': 0.8946, 'compound': 0.2813}
+223	2013/12/18	{'pos': 0.0945, 'neg': 0.0, 'neu': 0.9054, 'compound': 0.5053}
+235	2000/08/16	{'pos': 0.0726, 'neg': 0.0245, 'neu': 0.903, 'compound': 0.3886}
+284	1999/02/20	{'pos': 0.0972, 'neg': 0.046, 'neu': 0.8566, 'compound': 0.1047}
+316	1998/11/14	{'pos': 0.1156, 'neg': 0.0897, 'neu': 0.7947, 'compound': 0.2279}
+336	2013/09/04	{'pos': 0.0913, 'neg': 0.0, 'neu': 0.9087, 'compound': 0.3643}
+345	2010/12/18	{'pos': 0.0424, 'neg': 0.038, 'neu': 0.9197, 'compound': -0.0248}
+478	1994/02/18	{'pos': 0.1508, 'neg': 0.0426, 'neu': 0.8066, 'compound': 0.3273}
+493	2003/05/19	{'pos': 0.1161, 'neg': 0.1045, 'neu': 0.7795, 'compound': -0.0134}
+536	2014/01/21	{'pos': 0.0777, 'neg': 0.0633, 'neu': 0.859, 'compound': 0.0605}
+543	1995/10/12	{'pos': 0.0464, 'neg': 0.0637, 'neu': 0.8897, 'compound': 0.096}
+723	1993/09/21	{'pos': 0.0733, 'neg': 0.0, 'neu': 0.9266, 'compound': 0.524}
+825	1996/07/08	{'pos': 0.063, 'neg': 0.03, 'neu': 0.9066, 'compound': 0.1887}
+826	2009/05/17	{'pos': 0.1212, 'neg': 0.0478, 'neu': 0.8312, 'compound': 0.4185}
+835	1992/12/13	{'pos': 0.1242, 'neg': 0.0253, 'neu': 0.8505, 'compound': 0.2925}
+ 
+International Times
+24	22 June 2009	{'pos': 0.0541, 'neg': 0.1031, 'neu': 0.8429, 'compound': -0.1336}
+150	22 February 2013	{'pos': 0.0904, 'neg': 0.0498, 'neu': 0.8599, 'compound': 0.2249}
+167	21 January 2014  1405	{'pos': 0.0127, 'neg': 0.1239, 'neu': 0.8632, 'compound': -0.3297}
+238	20 February 2012	{'pos': 0.0834, 'neg': 0.0221, 'neu': 0.8943, 'compound': 0.1156}
+282	20 June 2012	{'pos': 0.0711, 'neg': 0.1849, 'neu': 0.7443, 'compound': -0.3881}
+287	Interpol has announced the formation of a new multi-country task force to combat the increasingly wide distribution of the drug methyldimethyl cathinone (MDMC).  Heading the task force is Senior Inspector Robert Loblaw, a veteran officer who led the very successful Tethys Counterdrug Team.  He is optimistic that he can identify the source.	{'pos': 0.0531, 'neg': 0.0899, 'neu': 0.857, 'compound': -0.2219}
+347	4 October 1982	{'pos': 0.175, 'neg': 0.0, 'neu': 0.825, 'compound': 0.856}
+443	14 November 1999	{'pos': 0.1139, 'neg': 0.1101, 'neu': 0.7762, 'compound': 0.0342}
+506	12 November 2013	{'pos': 0.0483, 'neg': 0.1607, 'neu': 0.7912, 'compound': -0.359}
+514	22 February 2009	{'pos': 0.0785, 'neg': 0.1127, 'neu': 0.8087, 'compound': -0.1522}
+550	18 March 2007	{'pos': 0.0233, 'neg': 0.1496, 'neu': 0.8271, 'compound': -0.3065}
+638	2 October 1982	{'pos': 0.0811, 'neg': 0.0336, 'neu': 0.8853, 'compound': 0.2911}
+651	7 February 2013	{'pos': 0.0402, 'neg': 0.0706, 'neu': 0.889, 'compound': -0.2156}
+751	3 May 1984	{'pos': 0.0628, 'neg': 0.0495, 'neu': 0.8879, 'compound': 0.068}
+ 
+International News
+29	2014/01/20	{'pos': 0.049, 'neg': 0.085, 'neu': 0.866, 'compound': -0.3612}
+75	2012/06/22	{'pos': 0.085, 'neg': 0.06, 'neu': 0.855, 'compound': 0.1531}
+89	2012/06/20	{'pos': 0.0595, 'neg': 0.167, 'neu': 0.7735, 'compound': -0.802}
+129	2001/08/31	{'pos': 0.039, 'neg': 0.161, 'neu': 0.8, 'compound': -0.9648}
+226	1993/01/19	{'pos': 0.1705, 'neg': 0.0395, 'neu': 0.79, 'compound': 0.6158}
+276	2014/01/21	{'pos': 0.0, 'neg': 0.142, 'neu': 0.858, 'compound': -0.6179}
+333	2013/12/16	{'pos': 0.0, 'neg': 0.286, 'neu': 0.714, 'compound': -0.7992}
+374	2013/06/20	{'pos': 0.0725, 'neg': 0.085, 'neu': 0.843, 'compound': -0.3686}
+423	2005/04/06	{'pos': 0.0, 'neg': 0.1845, 'neu': 0.8155, 'compound': -0.9051}
+436	2014/01/19	{'pos': 0.055, 'neg': 0.0, 'neu': 0.945, 'compound': 0.7184}
+444	1995/10/11	{'pos': 0.177, 'neg': 0.0, 'neu': 0.823, 'compound': 0.9062}
+499	2011/07/28	{'pos': 0.062, 'neg': 0.2, 'neu': 0.738, 'compound': -0.8955}
+547	1995/11/21	{'pos': 0.111, 'neg': 0.073, 'neu': 0.816, 'compound': 0.765}
+636	2001/03/18	{'pos': 0.117, 'neg': 0.063, 'neu': 0.819, 'compound': 0.5647}
+689	2014/01/21	{'pos': 0.0173, 'neg': 0.0, 'neu': 0.9826, 'compound': 0.1646}
+742	2009/02/18	{'pos': 0.015, 'neg': 0.1165, 'neu': 0.8685, 'compound': -0.8409}
+767	2010/06/21	{'pos': 0.0975, 'neg': 0.11, 'neu': 0.792, 'compound': -0.3273}
+768	1996/03/14	{'pos': 0.102, 'neg': 0.0, 'neu': 0.898, 'compound': 0.9081}
+821	1999/07/04	{'pos': 0.162, 'neg': 0.0, 'neu': 0.838, 'compound': 0.9477}
+836	2009/03/12	{'pos': 0.093, 'neg': 0.096, 'neu': 0.811, 'compound': -0.0772}
+ 
+Central Bulletin
+34	2010/06/14	{'pos': 0.09, 'neg': 0.194, 'neu': 0.716, 'compound': -0.2137}
+37	2011/11/23	{'pos': 0.0, 'neg': 0.2773, 'neu': 0.7227, 'compound': -0.5837}
+113	2005/09/25	{'pos': 0.0217, 'neg': 0.103, 'neu': 0.8749, 'compound': -0.4194}
+123	2011/07/28	{'pos': 0.031, 'neg': 0.176, 'neu': 0.7933, 'compound': -0.7392}
+125	2014/01/20	{'pos': 0.037, 'neg': 0.168, 'neu': 0.795, 'compound': -0.7682}
+136	1997/04/23	{'pos': 0.077, 'neg': 0.08, 'neu': 0.843, 'compound': -0.0544}
+151	1997/10/16	{'pos': 0.08, 'neg': 0.0717, 'neu': 0.8483, 'compound': -0.0155}
+170	2014/01/20	{'pos': 0.062, 'neg': 0.0825, 'neu': 0.8555, 'compound': -0.018}
+213	2012/08/23	{'pos': 0.0488, 'neg': 0.1721, 'neu': 0.7794, 'compound': -0.4806}
+244	2010/10/03	{'pos': 0.1793, 'neg': 0.0, 'neu': 0.8207, 'compound': 0.676}
+401	1998/11/16	{'pos': 0.1465, 'neg': 0.0445, 'neu': 0.8085, 'compound': 0.2935}
+403	2000/10/02	{'pos': 0.098, 'neg': 0.0645, 'neu': 0.8375, 'compound': 0.2529}
+565	2009/02/19	{'pos': 0.0067, 'neg': 0.1587, 'neu': 0.8349, 'compound': -0.7684}
+578	2007/04/11	{'pos': 0.0, 'neg': 0.182, 'neu': 0.818, 'compound': -0.6495}
+604	2010/06/21	{'pos': 0.077, 'neg': 0.1765, 'neu': 0.7465, 'compound': -0.2676}
+618	2014/01/19	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+673	2014/01/20	{'pos': 0.0835, 'neg': 0.1075, 'neu': 0.809, 'compound': -0.3339}
+734	2000/08/17	{'pos': 0.0639, 'neg': 0.1576, 'neu': 0.778, 'compound': -0.5296}
+745	2009/06/21	{'pos': 0.03, 'neg': 0.278, 'neu': 0.692, 'compound': -0.5878}
+798	2009/03/13	{'pos': 0.051, 'neg': 0.1227, 'neu': 0.826, 'compound': -0.2795}
+800	2013/12/17	{'pos': 0.0232, 'neg': 0.2901, 'neu': 0.6867, 'compound': -0.6978}
+ 
+The Continent
+36	2009/02/23	{'pos': 0.0939, 'neg': 0.1063, 'neu': 0.8002, 'compound': -0.1076}
+88	2013/11/13	{'pos': 0.0806, 'neg': 0.1586, 'neu': 0.7604, 'compound': -0.3163}
+100	2007/03/19	{'pos': 0.0252, 'neg': 0.0974, 'neu': 0.8774, 'compound': -0.1804}
+242	2010/03/05	{'pos': 0.0423, 'neg': 0.0821, 'neu': 0.8757, 'compound': -0.1891}
+245	2014/01/21	{'pos': 0.0171, 'neg': 0.118, 'neu': 0.865, 'compound': -0.3318}
+268	2009/06/23	{'pos': 0.0476, 'neg': 0.1035, 'neu': 0.8492, 'compound': -0.2158}
+302	1999/11/16	{'pos': 0.0899, 'neg': 0.0743, 'neu': 0.8359, 'compound': 0.0211}
+318	2012/06/21	{'pos': 0.0789, 'neg': 0.1504, 'neu': 0.7706, 'compound': -0.2505}
+457	2012/02/21	{'pos': 0.1201, 'neg': 0.0371, 'neu': 0.8427, 'compound': 0.166}
+513	Interpol has announced the shaping of new multi-country a working party to fight the more and more broad distribution of cathinone of drug methyl dimethyl (MDMC).  The heading the working party is higher inspector Robert Loblaw, a veteran civil servant who led the very successful team of Tethys Counterdrug.  He is optimistic that he can identify the source.	{'pos': 0.0516, 'neg': 0.0844, 'neu': 0.8639, 'compound': -0.2404}
+530	2013/02/08	{'pos': 0.0366, 'neg': 0.0638, 'neu': 0.8994, 'compound': -0.216}
+535	2014/03/26	{'pos': 0.084, 'neg': 0.0601, 'neu': 0.8561, 'compound': 0.0917}
+580	2013/02/24	{'pos': 0.0666, 'neg': 0.0387, 'neu': 0.8947, 'compound': 0.119}
+784	1984/05/05	{'pos': 0.0765, 'neg': 0.0454, 'neu': 0.8781, 'compound': 0.0846}
+796	1982/10/03	{'pos': 0.1119, 'neg': 0.0392, 'neu': 0.849, 'compound': 0.32}
+ 
+The Guide
+47	1993/03/13	{'pos': 0.179, 'neg': 0.0, 'neu': 0.821, 'compound': 0.9816}
+62	2014/01/21	{'pos': 0.0853, 'neg': 0.013, 'neu': 0.9016, 'compound': 0.5423}
+66	1995/10/12	{'pos': 0.13, 'neg': 0.0, 'neu': 0.87, 'compound': 0.9416}
+145	2014/01/20	{'pos': 0.0945, 'neg': 0.0345, 'neu': 0.871, 'compound': 0.5296}
+162	2009/06/21	{'pos': 0.0394, 'neg': 0.2047, 'neu': 0.7564, 'compound': -0.919}
+189	2013/06/22	{'pos': 0.101, 'neg': 0.081, 'neu': 0.8175, 'compound': 0.0123}
+194	2012/06/23	{'pos': 0.077, 'neg': 0.037, 'neu': 0.886, 'compound': 0.4404}
+224	2011/07/28	{'pos': 0.028, 'neg': 0.197, 'neu': 0.775, 'compound': -0.9492}
+229	2009/03/13	{'pos': 0.097, 'neg': 0.074, 'neu': 0.829, 'compound': 0.7311}
+296	2001/03/18	{'pos': 0.086, 'neg': 0.05, 'neu': 0.864, 'compound': 0.7184}
+327	1999/07/04	{'pos': 0.123, 'neg': 0.0, 'neu': 0.877, 'compound': 0.9371}
+328	2001/09/01	{'pos': 0.062, 'neg': 0.068, 'neu': 0.87, 'compound': -0.1295}
+330	1998/11/10	{'pos': 0.056, 'neg': 0.009, 'neu': 0.935, 'compound': 0.4654}
+363	2001/06/16	{'pos': 0.085, 'neg': 0.1205, 'neu': 0.795, 'compound': -0.4701}
+372	2014/01/21	{'pos': 0.0623, 'neg': 0.095, 'neu': 0.8426, 'compound': -0.2091}
+373	2012/03/09	{'pos': 0.016, 'neg': 0.1145, 'neu': 0.869, 'compound': -0.5493}
+388	2013/12/16	{'pos': 0.1075, 'neg': 0.1215, 'neu': 0.771, 'compound': -0.2378}
+424	1995/11/23	{'pos': 0.1305, 'neg': 0.054, 'neu': 0.8155, 'compound': 0.8591}
+509	1996/03/15	{'pos': 0.129, 'neg': 0.032, 'neu': 0.839, 'compound': 0.8323}
+595	2005/04/08	{'pos': 0.042, 'neg': 0.0863, 'neu': 0.872, 'compound': -0.492}
+614	2014/01/19	{'pos': 0.067, 'neg': 0.0135, 'neu': 0.92, 'compound': 0.5522}
+641	1993/01/19	{'pos': 0.133, 'neg': 0.0535, 'neu': 0.8135, 'compound': 0.6252}
+664	2012/06/21	{'pos': 0.0915, 'neg': 0.142, 'neu': 0.7665, 'compound': -0.3954}
+670	2010/06/22	{'pos': 0.0683, 'neg': 0.105, 'neu': 0.8267, 'compound': -0.3506}
+725	1993/09/21	{'pos': 0.1015, 'neg': 0.0085, 'neu': 0.89, 'compound': 0.7466}
+754	2011/06/22	{'pos': 0.041, 'neg': 0.106, 'neu': 0.853, 'compound': -0.7184}
+758	1998/01/20	{'pos': 0.1055, 'neg': 0.0695, 'neu': 0.825, 'compound': 0.2253}
+837	2009/02/19	{'pos': 0.036, 'neg': 0.0933, 'neu': 0.8703, 'compound': -0.5808}
+ 
+Athena Speaks
+48	2007/04/11	{'pos': 0.0378, 'neg': 0.1428, 'neu': 0.8194, 'compound': -0.4292}
+64	2011/07/29	{'pos': 0.0707, 'neg': 0.1867, 'neu': 0.7427, 'compound': -0.765}
+74	2012/08/24	{'pos': 0.0592, 'neg': 0.1427, 'neu': 0.7976, 'compound': -0.4137}
+138	By Haneson Ngohebo	{'pos': 0.0584, 'neg': 0.0354, 'neu': 0.9064, 'compound': 0.1126}
+140	2014/01/20	{'pos': 0.0578, 'neg': 0.0714, 'neu': 0.8708, 'compound': -0.2343}
+141	2009/02/21	{'pos': 0.0574, 'neg': 0.1368, 'neu': 0.806, 'compound': -0.3814}
+160	2014/01/19	{'pos': 0.0245, 'neg': 0.0, 'neu': 0.9755, 'compound': 0.2107}
+191	2009/06/21	{'pos': 0.0466, 'neg': 0.2562, 'neu': 0.6974, 'compound': -0.6877}
+202	2014/01/20	{'pos': 0.0272, 'neg': 0.0278, 'neu': 0.9451, 'compound': 0.0489}
+220	1997/10/17	{'pos': 0.0683, 'neg': 0.0381, 'neu': 0.8938, 'compound': 0.0388}
+231	2013/12/17	{'pos': 0.0463, 'neg': 0.2268, 'neu': 0.727, 'compound': -0.6855}
+255	2011/11/23	{'pos': 0.0126, 'neg': 0.1679, 'neu': 0.8195, 'compound': -0.324}
+270	2000/10/04	{'pos': 0.0465, 'neg': 0.03, 'neu': 0.9235, 'compound': 0.0493}
+295	2000/08/18	{'pos': 0.057, 'neg': 0.191, 'neu': 0.7524, 'compound': -0.6699}
+354	2009/03/14	{'pos': 0.064, 'neg': 0.1347, 'neu': 0.8013, 'compound': -0.3799}
+383	2005/09/26	{'pos': 0.0143, 'neg': 0.1144, 'neu': 0.8711, 'compound': -0.4595}
+405	2010/06/15	{'pos': 0.065, 'neg': 0.193, 'neu': 0.742, 'compound': -0.5909}
+433	2011/05/15	{'pos': 0.072, 'neg': 0.1764, 'neu': 0.7517, 'compound': -0.6306}
+466	2014/01/20	{'pos': 0.074, 'neg': 0.1266, 'neu': 0.799, 'compound': -0.282}
+516	2014/01/20	{'pos': 0.0475, 'neg': 0.058, 'neu': 0.8945, 'compound': -0.2286}
+519	1998/11/17	{'pos': 0.119, 'neg': 0.0753, 'neu': 0.8053, 'compound': 0.3821}
+601	2010/10/04	{'pos': 0.0866, 'neg': 0.0288, 'neu': 0.8848, 'compound': 0.3392}
+610	2012/03/10	{'pos': 0.0457, 'neg': 0.1267, 'neu': 0.8277, 'compound': -0.2225}
+615	2010/06/21	{'pos': 0.0762, 'neg': 0.1205, 'neu': 0.8032, 'compound': -0.1702}
+652	1997/04/24	{'pos': 0.0773, 'neg': 0.0437, 'neu': 0.8789, 'compound': -0.0264}
+ 
+The World
+49	20 January 2014	{'pos': 0.0618, 'neg': 0.1088, 'neu': 0.8291, 'compound': -0.131}
+84	23 September 1994	{'pos': 0.0723, 'neg': 0.027, 'neu': 0.9006, 'compound': 0.1247}
+111	30 March 1995	{'pos': 0.0283, 'neg': 0.175, 'neu': 0.797, 'compound': -0.6019}
+195	15 May 2009	{'pos': 0.1138, 'neg': 0.0766, 'neu': 0.8096, 'compound': 0.175}
+278	15 January 2000	{'pos': 0.1355, 'neg': 0.032, 'neu': 0.8325, 'compound': 0.2908}
+305	13 November 1998	{'pos': 0.1586, 'neg': 0.0757, 'neu': 0.7656, 'compound': 0.3268}
+472	7 July 1996	{'pos': 0.1064, 'neg': 0.0233, 'neu': 0.8703, 'compound': 0.2986}
+497	10 October 1995	{'pos': 0.041, 'neg': 0.0723, 'neu': 0.8866, 'compound': 0.0002}
+498	15 August 2000	{'pos': 0.0467, 'neg': 0.0305, 'neu': 0.9226, 'compound': 0.0936}
+517	18 February 1999	{'pos': 0.1078, 'neg': 0.0508, 'neu': 0.8412, 'compound': 0.1815}
+559	16 December 2013	{'pos': 0.079, 'neg': 0.0, 'neu': 0.921, 'compound': 0.355}
+587	17 May 2003	{'pos': 0.0911, 'neg': 0.1167, 'neu': 0.7922, 'compound': -0.1006}
+611	11 December 1992	{'pos': 0.1885, 'neg': 0.026, 'neu': 0.7854, 'compound': 0.4214}
+736	19 September 1993	{'pos': 0.0457, 'neg': 0.021, 'neu': 0.9333, 'compound': 0.0262}
+750	17 February 1994	{'pos': 0.1322, 'neg': 0.0646, 'neu': 0.8032, 'compound': 0.3057}
+809	2 September 2013	{'pos': 0.0983, 'neg': 0.0, 'neu': 0.9017, 'compound': 0.3643}
+824	21 January 2014	{'pos': 0.052, 'neg': 0.0867, 'neu': 0.8614, 'compound': -0.2136}
+ 
+The Abila Post
+50	20 January 2014	{'pos': 0.0534, 'neg': 0.153, 'neu': 0.7933, 'compound': -0.4495}
+53	By Haneson Ngohebo	{'pos': 0.0115, 'neg': 0.059, 'neu': 0.93, 'compound': -0.3298}
+54	22 August 2012	{'pos': 0.0435, 'neg': 0.1592, 'neu': 0.797, 'compound': -0.5271}
+83	16 December 2013	{'pos': 0.0537, 'neg': 0.2352, 'neu': 0.711, 'compound': -0.6551}
+139	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.0788, 'neu': 0.9213, 'compound': -0.3172}
+169	By Haneson Ngohebo	{'pos': 0.0168, 'neg': 0.0625, 'neu': 0.9207, 'compound': -0.0969}
+185	20 June 2009	{'pos': 0.0516, 'neg': 0.2584, 'neu': 0.6896, 'compound': -0.5879}
+212	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.1, 'neu': 0.9, 'compound': -0.1974}
+218	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+233	2 October 2010	{'pos': 0.1832, 'neg': 0.0, 'neu': 0.8167, 'compound': 0.6874}
+250	By Haneson Ngohebo	{'pos': 0.0055, 'neg': 0.0365, 'neu': 0.958, 'compound': -0.1895}
+261	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.0365, 'neu': 0.9635, 'compound': -0.1132}
+265	8 March 2012	{'pos': 0.0433, 'neg': 0.1497, 'neu': 0.807, 'compound': -0.3277}
+292	By Haneson Ngohebo	{'pos': 0.0973, 'neg': 0.0727, 'neu': 0.8296, 'compound': -0.1324}
+304	15 October 1997	{'pos': 0.0772, 'neg': 0.0792, 'neu': 0.8435, 'compound': -0.0986}
+322	By Haneson Ngohebo	{'pos': 0.013, 'neg': 0.0, 'neu': 0.987, 'compound': 0.0683}
+326	20 January 2014	{'pos': 0.0654, 'neg': 0.0818, 'neu': 0.8528, 'compound': -0.1799}
+338	By Haneson Ngohebo	{'pos': 0.022, 'neg': 0.0, 'neu': 0.9779, 'compound': 0.1133}
+356	By Haneson Ngohebo	{'pos': 0.0143, 'neg': 0.07, 'neu': 0.9156, 'compound': -0.2852}
+369	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.068, 'neu': 0.932, 'compound': -0.148}
+398	12 March 2009	{'pos': 0.0353, 'neg': 0.1547, 'neu': 0.8099, 'compound': -0.5561}
+428	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.1, 'neu': 0.9, 'compound': -0.3592}
+429	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+438	By Haneson Ngohebo	{'pos': 0.0273, 'neg': 0.1293, 'neu': 0.8433, 'compound': -0.5256}
+439	24 September 2005	{'pos': 0.0301, 'neg': 0.1569, 'neu': 0.8127, 'compound': -0.5544}
+450	By Haneson Ngohebo	{'pos': 0.0436, 'neg': 0.0943, 'neu': 0.862, 'compound': -0.3404}
+458	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.1505, 'neu': 0.8495, 'compound': -0.4404}
+475	20 June 2010	{'pos': 0.087, 'neg': 0.186, 'neu': 0.7269, 'compound': -0.3027}
+477	2 October 2000	{'pos': 0.1095, 'neg': 0.0425, 'neu': 0.848, 'compound': 0.4796}
+528	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.019, 'neu': 0.981, 'compound': -0.0322}
+555	By Haneson Ngohebo	{'pos': 0.0517, 'neg': 0.1216, 'neu': 0.8266, 'compound': -0.4411}
+557	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.139, 'neu': 0.861, 'compound': -0.465}
+573	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.0173, 'neu': 0.9826, 'compound': -0.0987}
+576	14 May 2011	{'pos': 0.0621, 'neg': 0.1994, 'neu': 0.739, 'compound': -0.7348}
+619	15 November 1998	{'pos': 0.1093, 'neg': 0.0607, 'neu': 0.8303, 'compound': 0.119}
+654	By Haneson Ngohebo	{'pos': 0.0573, 'neg': 0.072, 'neu': 0.8706, 'compound': 0.096}
+660	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.012, 'neu': 0.988, 'compound': -0.064}
+663	16 August 2000	{'pos': 0.0717, 'neg': 0.1286, 'neu': 0.7997, 'compound': -0.48}
+677	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+682	By Haneson Ngohebo	{'pos': 0.0387, 'neg': 0.0693, 'neu': 0.892, 'compound': -0.0379}
+696	22 November 2011	{'pos': 0.0, 'neg': 0.2725, 'neu': 0.7276, 'compound': -0.6018}
+699	By Haneson Ngohebo	{'pos': 0.051, 'neg': 0.0167, 'neu': 0.9323, 'compound': 0.0207}
+705	27 July 2011	{'pos': 0.0213, 'neg': 0.1823, 'neu': 0.7967, 'compound': -0.8286}
+713	By Haneson Ngohebo	{'pos': 0.0738, 'neg': 0.0542, 'neu': 0.8721, 'compound': 0.0878}
+718	20 January 2014	{'pos': 0.044, 'neg': 0.009, 'neu': 0.9471, 'compound': 0.1572}
+756	10 April 2007	{'pos': 0.0, 'neg': 0.086, 'neu': 0.914, 'compound': -0.3897}
+764	19 January 2014	{'pos': 0.0285, 'neg': 0.0, 'neu': 0.9715, 'compound': 0.2107}
+782	23 April 1997	{'pos': 0.0467, 'neg': 0.0563, 'neu': 0.8969, 'compound': -0.1028}
+803	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.009, 'neu': 0.9909, 'compound': -0.0172}
+805	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.0, 'neu': 1.0, 'compound': 0.0}
+806	By Haneson Ngohebo	{'pos': 0.0, 'neg': 0.0545, 'neu': 0.9455, 'compound': -0.148}
+807	19 February 2009	{'pos': 0.0474, 'neg': 0.1118, 'neu': 0.841, 'compound': -0.3157}
+812	13June 2010	{'pos': 0.0673, 'neg': 0.2123, 'neu': 0.7204, 'compound': -0.4617}
+834	By Haneson Ngohebo	{'pos': 0.0123, 'neg': 0.0, 'neu': 0.9878, 'compound': 0.0683}
+ 
+Who What News
+59	2003/05/18	{'pos': 0.0993, 'neg': 0.1463, 'neu': 0.7546, 'compound': -0.1006}
+105	1994/09/24	{'pos': 0.043, 'neg': 0.0, 'neu': 0.957, 'compound': 0.2256}
+137	1994/02/18	{'pos': 0.1037, 'neg': 0.0552, 'neu': 0.8412, 'compound': 0.2653}
+153	1995/03/30	{'pos': 0.0425, 'neg': 0.128, 'neu': 0.83, 'compound': -0.5481}
+310	2014/01/21	{'pos': 0.0305, 'neg': 0.0545, 'neu': 0.915, 'compound': -0.1079}
+375	2013/12/17	{'pos': 0.0637, 'neg': 0.0, 'neu': 0.9363, 'compound': 0.253}
+422	2009/05/16	{'pos': 0.093, 'neg': 0.0885, 'neu': 0.8185, 'compound': 0.0287}
+449	1999/02/19	{'pos': 0.136, 'neg': 0.0607, 'neu': 0.803, 'compound': 0.2514}
+469	2014/01/20	{'pos': 0.072, 'neg': 0.114, 'neu': 0.8135, 'compound': -0.3059}
+471	2000/01/16	{'pos': 0.079, 'neg': 0.045, 'neu': 0.876, 'compound': 0.3247}
+473	1992/12/12	{'pos': 0.135, 'neg': 0.0347, 'neu': 0.8303, 'compound': 0.3548}
+626	2000/08/15	{'pos': 0.009, 'neg': 0.0206, 'neu': 0.97, 'compound': -0.0429}
+694	1998/11/14	{'pos': 0.2445, 'neg': 0.118, 'neu': 0.6385, 'compound': 0.4758}
+716	2009/02/21	{'pos': 0.0243, 'neg': 0.0874, 'neu': 0.8884, 'compound': -0.5489}
+732	1993/09/19	{'pos': 0.034, 'neg': 0.0273, 'neu': 0.9386, 'compound': -0.0995}
+ 
+All News Today
+77	2011/06/21	{'pos': 0.0544, 'neg': 0.2421, 'neu': 0.7039, 'compound': -0.7977}
+121	2005/04/06	{'pos': 0.0, 'neg': 0.1205, 'neu': 0.8795, 'compound': -0.5266}
+135	2012/04/09	{'pos': 0.1145, 'neg': 0.036, 'neu': 0.8495, 'compound': 0.3677}
+152	1993/02/02	{'pos': 0.092, 'neg': 0.033, 'neu': 0.875, 'compound': 0.6369}
+154	Petrus Gerhard	{'pos': 0.0565, 'neg': 0.0444, 'neu': 0.8991, 'compound': -0.0455}
+237	1998/05/15	{'pos': 0.0549, 'neg': 0.0738, 'neu': 0.8708, 'compound': -0.0349}
+251	2004/05/29	{'pos': 0.086, 'neg': 0.0, 'neu': 0.914, 'compound': 0.4404}
+341	2013/06/21	{'pos': 0.011, 'neg': 0.0413, 'neu': 0.9479, 'compound': -0.317}
+391	2001/03/22	{'pos': 0.0173, 'neg': 0.0655, 'neu': 0.9173, 'compound': -0.228}
+420	1998/11/15	{'pos': 0.08, 'neg': 0.0, 'neu': 0.92, 'compound': 0.4429}
+554	2009/06/20	{'pos': 0.102, 'neg': 0.136, 'neu': 0.762, 'compound': -0.3593}
+603	2007/03/21	{'pos': 0.0, 'neg': 0.1015, 'neu': 0.8985, 'compound': -0.3254}
+612	1999/07/08	{'pos': 0.054, 'neg': 0.0867, 'neu': 0.8589, 'compound': 0.0155}
+617	1998/05/16	{'pos': 0.0145, 'neg': 0.054, 'neu': 0.9315, 'compound': -0.065}
+683	2009/03/12	{'pos': 0.0825, 'neg': 0.0515, 'neu': 0.8662, 'compound': 0.1701}
+698	2012/06/20	{'pos': 0.0437, 'neg': 0.1112, 'neu': 0.8454, 'compound': -0.2638}
+714	2014/01/19	{'pos': 0.087, 'neg': 0.0, 'neu': 0.913, 'compound': 0.5719}
+753	2012/09/08	{'pos': 0.097, 'neg': 0.0747, 'neu': 0.8282, 'compound': -0.0095}
+ 
+The Explainer
+127	2014/01/19	{'pos': 0.066, 'neg': 0.0, 'neu': 0.934, 'compound': 0.4088}
+177	2000/08/18	{'pos': 0.053, 'neg': 0.118, 'neu': 0.829, 'compound': -0.6073}
+197	2014/01/20	{'pos': 0.0657, 'neg': 0.138, 'neu': 0.7967, 'compound': -0.2938}
+205	2011/11/23	{'pos': 0.0, 'neg': 0.0342, 'neu': 0.9655, 'compound': -0.0949}
+258	2012/03/09	{'pos': 0.024, 'neg': 0.162, 'neu': 0.8136, 'compound': -0.4828}
+260	2013/12/17	{'pos': 0.047, 'neg': 0.2, 'neu': 0.753, 'compound': -0.4989}
+300	2012/08/24	{'pos': 0.0385, 'neg': 0.1176, 'neu': 0.8438, 'compound': -0.3459}
+324	2014/01/20	{'pos': 0.0451, 'neg': 0.0243, 'neu': 0.9306, 'compound': 0.0692}
+334	2010/06/14	{'pos': 0.0357, 'neg': 0.1613, 'neu': 0.803, 'compound': -0.7235}
+340	2009/02/20	{'pos': 0.0354, 'neg': 0.1074, 'neu': 0.857, 'compound': -0.407}
+377	2007/04/11	{'pos': 0.0584, 'neg': 0.085, 'neu': 0.8566, 'compound': -0.2433}
+382	2010/10/04	{'pos': 0.1566, 'neg': 0.0092, 'neu': 0.8343, 'compound': 0.6555}
+385	2009/06/22	{'pos': 0.0304, 'neg': 0.207, 'neu': 0.7624, 'compound': -0.6696}
+397	2014/01/20	{'pos': 0.0642, 'neg': 0.0702, 'neu': 0.8656, 'compound': -0.0629}
+442	1998/11/17	{'pos': 0.0664, 'neg': 0.086, 'neu': 0.8476, 'compound': -0.1934}
+491	2005/09/26	{'pos': 0.0374, 'neg': 0.0972, 'neu': 0.8652, 'compound': -0.3978}
+527	2011/07/28	{'pos': 0.0073, 'neg': 0.206, 'neu': 0.7867, 'compound': -0.9152}
+661	2011/05/16	{'pos': 0.068, 'neg': 0.1086, 'neu': 0.8233, 'compound': -0.3872}
+667	2009/03/13	{'pos': 0.0617, 'neg': 0.1254, 'neu': 0.813, 'compound': -0.349}
+679	By Haneson Ngohebo	{'pos': 0.0605, 'neg': 0.0302, 'neu': 0.9094, 'compound': 0.1595}
+691	2010/06/22	{'pos': 0.0881, 'neg': 0.0881, 'neu': 0.8244, 'compound': 0.0085}
+703	1997/10/16	{'pos': 0.0529, 'neg': 0.035, 'neu': 0.9121, 'compound': 0.0092}
+715	2014/01/20	{'pos': 0.0735, 'neg': 0.0525, 'neu': 0.874, 'compound': -0.0799}
+731	1997/04/25	{'pos': 0.0313, 'neg': 0.037, 'neu': 0.9317, 'compound': -0.0769}
+747	2000/10/03	{'pos': 0.08, 'neg': 0.028, 'neu': 0.892, 'compound': 0.2787}
+ 
+World Source
+132	2012/06/20	{'pos': 0.06, 'neg': 0.1514, 'neu': 0.7888, 'compound': -0.3352}
+353	2009/06/22	{'pos': 0.0371, 'neg': 0.1106, 'neu': 0.8523, 'compound': -0.2958}
+393	2013/02/22	{'pos': 0.0768, 'neg': 0.0388, 'neu': 0.8846, 'compound': 0.2698}
+564	1984/05/03	{'pos': 0.0592, 'neg': 0.0502, 'neu': 0.8906, 'compound': 0.0497}
+643	2009/02/23	{'pos': 0.0903, 'neg': 0.1086, 'neu': 0.8008, 'compound': -0.1791}
+728	1982/10/02	{'pos': 0.0835, 'neg': 0.0187, 'neu': 0.8978, 'compound': 0.3932}
+762	1999/11/14	{'pos': 0.1484, 'neg': 0.1159, 'neu': 0.7354, 'compound': 0.1239}
+775	2013/10/22	{'pos': 0.0826, 'neg': 0.09, 'neu': 0.8272, 'compound': -0.1502}
+787	2014/01/21	{'pos': 0.0178, 'neg': 0.1158, 'neu': 0.8664, 'compound': -0.2595}
+ 

@@ -24,11 +24,13 @@ with open('articles_dictionary.txt') as f:
     data = f.read()
 allArticles = json.loads(data)
 
+'''
 for art in allArticles.keys():
 	print(art)
 	for key in allArticles[art].keys():
 		print(key+"\t"+str(allArticles[art][key]))
 	print(" ")
+'''
 
 print("\tpos\tneg\tneu")
 print("mean\t{0}\t{1}\t{2}".format(
@@ -167,11 +169,16 @@ plt.scatter(sig_neg, sig_pos, color="blue", marker="*", label="Significant pos o
 plt.scatter(sig_count[0], sig_count[1], s=sig_count[2], color="green", marker=".", label="Significant count")
 
 plt.legend()
-plt.show()
+#plt.show()
+
+fig1, ax1 = plt.subplots()
+ax1.set_title('Basic Plot')
+ax1.boxplot(pos)
+#plt.show()
 
 for publisher in labels:
 	print(publisher)
 	for key in allArticles.keys():
 		if allArticles[key]['publisher'] == publisher:
 			print(key+"\t"+allArticles[key]['date']+"\t"+str(allArticles[key]['sentiment']))
-
+	print(" ")

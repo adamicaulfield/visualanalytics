@@ -5,6 +5,12 @@ import csv
 import json
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
+# # Use once
+# print("Downloading \'vader_lexicon\'")
+# nltk.downloader.download('vader_lexicon')
+# print("Done")
+# print(" ")
+
 print("Sentiment Analysis:")
 totalArticles = 844
 allData = []
@@ -102,8 +108,3 @@ with open('publisher_sentiment.txt','w') as my_csv:
 	csvWriter = csv.writer(my_csv, delimiter=',')
 	csvWriter.writerows(publisherSentiments)
 print(" ")
-
-
-
-
-

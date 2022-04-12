@@ -169,12 +169,18 @@ plt.scatter(sig_neg, sig_pos, color="blue", marker="*", label="Significant pos o
 plt.scatter(sig_count[0], sig_count[1], s=sig_count[2], color="green", marker=".", label="Significant count")
 
 plt.legend()
-#plt.show()
+plt.show()
 
-fig1, ax1 = plt.subplots()
-ax1.set_title('Basic Plot')
-ax1.boxplot(pos)
-#plt.show()
+fig, axs = plt.subplots(2, 2)
+axs[0,0].boxplot(pos)
+axs[0,0].set_title('Positive')
+axs[0,1].boxplot(neg)
+axs[0,1].set_title('Negative')
+axs[1,0].boxplot(neu)
+axs[1,0].set_title('Neutral')
+axs[1,1].boxplot(count)
+axs[1,1].set_title('Total Articles')
+plt.show()
 
 for publisher in labels:
 	print(publisher)

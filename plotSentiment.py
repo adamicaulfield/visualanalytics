@@ -1,7 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import csv
+import json
+from math import pi
 
+print("---------------- Article Sentiment ----------------")
 with open("articles_sentiment.txt") as csvFile:
 	reader = csv.reader(csvFile, delimiter=',')
 	allSentiment = [row for row in reader]
@@ -15,44 +18,160 @@ neg = allSentiment[1]
 neu = allSentiment[2]
 totalArticles = len(pos)
 
-#Scatter plots
 labels = range(0, totalArticles)
-#fig,axes = plt.subplots(nrows=2)
 
-#axes[0].scatter(labels, pos, label="pos", color="red", marker=".")
-#axes[1].scatter(labels, neg, label="neg", c="blue", marker=".")
+with open('articles_dictionary.txt') as f:
+    data = f.read()
+allArticles = json.loads(data)
 
-#axes[0].legend()
-#axes[1].legend()
+for art in allArticles.keys():
+	print(art)
+	for key in allArticles[art].keys():
+		print(key+"\t"+str(allArticles[art][key]))
+	print(" ")
 
-plt.scatter(labels, pos, label="pos", color="red", marker=".")
-plt.scatter(labels, neg, label="neg", c="blue", marker=".")
+print("\tpos\tneg\tneu")
+print("mean\t{0}\t{1}\t{2}".format(
+		round(np.mean(pos),4),
+		round(np.mean(neg),4),
+		round(np.mean(neu),4)
+))
+print("std\t{0}\t{1}\t{2}".format(
+		round(np.std(pos),4),
+		round(np.std(neg),4),
+		round(np.std(neu),4)
+))
+print("min\t{0}\t{1}\t{2}".format(np.min(pos),np.min(neg),np.min(neu)))
+print("1Q\t{0}\t{1}\t{2}".format(np.percentile(pos, 25),np.percentile(neg, 25),np.percentile(neu, 25)))
+print("median\t{0}\t{1}\t{2}".format(np.median(pos),np.median(neg),np.median(neu)))
+print("3Q\t{0}\t{1}\t{2}".format(np.percentile(pos, 75),np.percentile(neg, 75),np.percentile(neu, 75)))
+print("max\t{0}\t{1}\t{2}".format(np.max(pos),np.max(neg),np.max(neu)))
 
-plt.legend()
-plt.show()
 
-"""
-# Stacked bar charts
-plt.rcParams.update({'font.size': 12})
+#plt.scatter(labels, pos, label="pos", color="red", marker=".")
+#plt.scatter(labels, neg, label="neg", c="blue", marker=".")
 
-fig,axes = plt.subplots(nrows=13)
-fig.subplots_adjust(hspace=0.5, wspace=0.3)
+#plt.legend()
+#plt.show()
 
-labels = range(0, totalArticles)
-print(len(labels))
-print(len(pos))
-plotItems = 65
-for i,ax in enumerate(axes.flat):
+print(" ")
+print("---------------- Publisher Sentiment ----------------")
+with open("publisher_sentiment.txt") as csvFile:
+	reader = csv.reader(csvFile, delimiter=',')
+	publisherSentiments = [row for row in reader]
+
+labels = publisherSentiments[4]
+publisherSentiments = publisherSentiments[:4]
+for i in range(0, len(publisherSentiments)):
+	for j in range(0, len(publisherSentiments[0])):
+		publisherSentiments[i][j] = float(publisherSentiments[i][j])
+		
+
+pos = publisherSentiments[0]
+neg = publisherSentiments[1]
+neu = publisherSentiments[2]
+count = publisherSentiments[3]
+print("\tpos\tneg\tneu\tcount")
+print("mean\t{0}\t{1}\t{2}\t{3}".format(
+		round(np.mean(pos),4),
+		round(np.mean(neg),4),
+		round(np.mean(neu),4),
+		round(np.mean(count),4),
+))
+print("std\t{0}\t{1}\t{2}\t{3}".format(
+		round(np.std(pos),4),
+		round(np.std(neg),4),
+		round(np.std(neu),4),
+		round(np.std(count),4)
+))
+print("min\t{0}\t{1}\t{2}\t{3}".format(np.min(pos),np.min(neg),np.min(neu),np.min(count)))
+print("1Q\t{0}\t{1}\t{2}\t{3}".format(
+	np.percentile(pos, 25),
+	np.percentile(neg, 25),
+	np.percentile(neu, 25),
+	np.percentile(count, 25)
+))
+print("median\t{0}\t{1}\t{2}\t{3}".format(
+	np.median(pos),
+	np.median(neg),
+	np.median(neu),
+	np.median(count)
+))
+print("3Q\t{0}\t{1}\t{2}\t{3}".format(
+	np.percentile(pos, 75),
+	np.percentile(neg, 75),
+	np.percentile(neu, 75),
+	np.percentile(count, 75)
+))
+print("max\t{0}\t{1}\t{2}\t{3}".format(
+	np.max(pos),
+	np.max(neg),
+	np.max(neu),
+	np.max(count)
+))
+
+fig, ax = plt.subplots()
+ax.scatter(neg, pos, s=count, color="black", marker=".")
+
+#a=np.std(neg)       #radius on the x-axis
+#b=np.std(pos)	    #radius on the y-axis
+#ax.plot( u+a*np.cos(t) , v+b*np.sin(t) , color="red", alpha=0.3)
+
+#a=3*np.std(neg)       #radius on the x-axis
+#b=3*np.std(pos)       #radius on the y-axis
+#ax.plot( u+a*np.cos(t) , v+b*np.sin(t) , color="red", alpha=0.9)
+plt.xlim([0,1])
+plt.ylim([0,1])
+plt.xlabel("Negative Proportion")
+plt.ylabel("Positive Proportion")
+
+
+
+print(" ")
+sig_pos = []
+sig_neg = []
+sig_count = [[],[],[]]
+std_thresh = 2
+u=0.5     			#x-position of the center
+v=0.5			    #y-position of the center
+a=std_thresh*np.std(neg)       #radius on the x-axis
+b=std_thresh*np.std(pos)       #radius on the y-axis
+t = np.linspace(0, 2*pi, 100)
+ax.plot( u+a*np.cos(t) , v+b*np.sin(t) , color="red", alpha=0.6, label=str(std_thresh)+" Std Devs from Mean")
+for i in range(0, len(labels)):
+	q1 =  (pos[i] >= std_thresh*np.std(pos)+np.mean(pos))
+	q2 =  (pos[i] <= -1*std_thresh*np.std(pos)+np.mean(pos))
+	q3 =  (neg[i] >= std_thresh*np.std(neg)+np.mean(pos))
+	q4 =  (neg[i] <= -1*std_thresh*np.std(neg)+np.mean(pos))
 	
-	start = i*plotItems
-	end = (i+1)*plotItems
+	ann = (q1 or q2 or q3 or q4)
 
-	#ax.bar(labels, neu, width=0.3, yerr=np.std(neu), label='neu')
-	#ax.bar(labels, pos, width=0.3, yerr=np.std(pos), label='pos',bottom=neu)
-	#ax.bar(labels, neg, width=0.3, yerr=np.std(neg), label='neg', bottom=np.add(pos,neu))
+	if ann:
+		print("Significant pos/neg: "+labels[i])
+		sig_neg.append(neg[i])
+		sig_pos.append(pos[i])
+		ax.annotate(labels[i], (neg[i], pos[i]))
 
-	ax.bar(labels[start:end], neg[start:end], label='neg')
-	ax.bar(labels[start:end], pos[start:end], label='pos',bottom=neg[start:end])
+
+	p1 = (count[i] >= std_thresh*np.std(count)+np.mean(count))
+	p2 = (count[i] <= -1*std_thresh*np.std(count)+np.mean(count))
+
+	if p1 or p2:
+		print("Significant count: "+labels[i])
+		sig_count[0].append(neg[i])
+		sig_count[1].append(pos[i])
+		sig_count[2].append(count[i])
+		ax.annotate(labels[i], (neg[i], pos[i]))
+
+plt.scatter(sig_neg, sig_pos, color="blue", marker="*", label="Significant pos or neg sentiment")
+plt.scatter(sig_count[0], sig_count[1], s=sig_count[2], color="green", marker=".", label="Significant count")
+
 plt.legend()
 plt.show()
-"""
+
+for publisher in labels:
+	print(publisher)
+	for key in allArticles.keys():
+		if allArticles[key]['publisher'] == publisher:
+			print(key+"\t"+allArticles[key]['date']+"\t"+str(allArticles[key]['sentiment']))
+

@@ -1,6 +1,6 @@
 # Visual Analytics Repo
 
-## Mini Challenge 1 Files
+## VAST 2014 Mini Challenge 1
 
 ### Python Pacakge Dependencies
 NLTK, NumPy, SKLearn, Pandas, Matplotlib, JSON, CSV, Sys, Math, PlotLy, Itertools

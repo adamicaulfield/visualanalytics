@@ -4,14 +4,24 @@ import matplotlib.pyplot as plt
 import csv
 import json
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+<<<<<<< HEAD
 from nltk.tokenize import word_tokenize
 from nltk.collocations import *
 
+=======
+from nltk.collocations import *
+from nltk.tokenize import word_tokenize, RegexpTokenizer
+from nltk.corpus import stopwords
+>>>>>>> 0fe7d88dfa02bc1ad2a5ef3436d7df791f4a530b
 
-# # Use once
+# # Use once if packages have never been installed
 # print("Downloading \'vader_lexicon\'")
 # nltk.downloader.download('vader_lexicon')
-# print("Done")
+# print("Done downloading \'vader_lexicon\'")
+# nltk.download('punkt')
+# print("Done downloading \'punkt\'")
+# nltk.download('stopwords')
+# print("Done downloading \'stopwords\'")
 # print(" ")
 
 print("Sentiment Analysis:")
@@ -20,9 +30,10 @@ allData = []
 pos = []
 neg = []
 neu = []
-print("------------------------ Sentiment of Publishers ------------------------")
+print("------------------------ Sentiment of Articles ------------------------")
 allPublishers = {}
 allArticles = {}
+allFilteredWords = []
 for a in range(0, totalArticles+1):
 	filename = "../MC1Data/MC1Data/articles/"+str(a)+".txt"
 
@@ -47,7 +58,12 @@ for a in range(0, totalArticles+1):
 	
 	art_sentiment = {'pos':0, 'neg':0, 'neu':0, 'compound':0}
 	
+<<<<<<< HEAD
 	all_words = []
+=======
+	words = []
+	tokenizer = nltk.RegexpTokenizer(r"\w+")
+>>>>>>> 0fe7d88dfa02bc1ad2a5ef3436d7df791f4a530b
 	for sentence in articles[3:]:
 		words = []
 		words.append(word_tokenize(sentence))		
@@ -59,7 +75,11 @@ for a in range(0, totalArticles+1):
 		#print(" ")
 		for key in art_sentiment.keys():
 			art_sentiment[key] = round(art_sentiment[key] + ss[key]/len(articles[3:]), 4)
-	
+		
+		words = words + tokenizer.tokenize(sentence)
+
+	filtered_words = [word for word in words if word not in stopwords.words('english')]
+
 	print(str(a)+".txt\t"+str(ss))
 	allData.append(art_sentiment)
 	pos.append(art_sentiment['pos'])
@@ -81,6 +101,7 @@ for a in range(0, totalArticles+1):
 			allPublishers[publisher]['neu'] = allPublishers[publisher]['neu']+1
 	allPublishers[publisher]["count"] = allPublishers[publisher]["count"]+1
 
+<<<<<<< HEAD
 '''
 # Uncomment for most common words
 	for sentence in words:
@@ -90,6 +111,22 @@ for a in range(0, totalArticles+1):
 		finder = BigramCollocationFinder.from_words(sentence)
 		print(finder.nbest(bigram_measures.pmi, 10))
 '''
+=======
+	allFilteredWords = allFilteredWords + filtered_words
+
+bigram_measures = nltk.collocations.BigramAssocMeasures()
+trigram_measures = nltk.collocations.TrigramAssocMeasures()
+fourgram_measures = nltk.collocations.QuadgramAssocMeasures()
+finder = BigramCollocationFinder.from_words(allFilteredWords)
+ignored_words = nltk.corpus.stopwords.words('english')
+finder.apply_word_filter(lambda w: len(w) < 3 or w.lower() in ignored_words)
+print(" ")
+print("------------------------ Most common collocations ------------------------")
+best = finder.nbest(bigram_measures.raw_freq, 20)
+for item in best:
+	print(item)
+print(" ")
+>>>>>>> 0fe7d88dfa02bc1ad2a5ef3436d7df791f4a530b
 
 # Output Data
 allSentiment = [pos, neg, neu]

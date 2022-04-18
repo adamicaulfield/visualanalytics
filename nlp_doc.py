@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 import csv
 import json
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from nltk.tokenize import word_tokenize
+from nltk.collocations import *
+
 
 # # Use once
 # print("Downloading \'vader_lexicon\'")
@@ -44,7 +47,11 @@ for a in range(0, totalArticles+1):
 	
 	art_sentiment = {'pos':0, 'neg':0, 'neu':0, 'compound':0}
 	
+	all_words = []
 	for sentence in articles[3:]:
+		words = []
+		words.append(word_tokenize(sentence))		
+
 		sid = SentimentIntensityAnalyzer()
 		#print("Sentence: "+sentence)
 		ss = sid.polarity_scores(sentence)
@@ -65,14 +72,24 @@ for a in range(0, totalArticles+1):
 	if publisher not in allPublishers.keys():
 		allPublishers[publisher] = {'pos':0, 'neg':0, 'neu':0, 'count':0}
 	
-	if art_sentiment['compound'] > 0:
+	if art_sentiment['compound'] >= 0.05:
 		allPublishers[publisher]['pos'] = allPublishers[publisher]['pos']+1
 	else:
-		if art_sentiment['compound'] < 0:
+		if art_sentiment['compound'] <= -0.05:
 			allPublishers[publisher]['neg'] = allPublishers[publisher]['neg']+1
 		else:
 			allPublishers[publisher]['neu'] = allPublishers[publisher]['neu']+1
 	allPublishers[publisher]["count"] = allPublishers[publisher]["count"]+1
+
+'''
+# Uncomment for most common words
+	for sentence in words:
+		bigram_measures = nltk.collocations.BigramAssocMeasures()
+		trigram_measures = nltk.collocations.TrigramAssocMeasures()
+		fourgram_measures = nltk.collocations.QuadgramAssocMeasures()
+		finder = BigramCollocationFinder.from_words(sentence)
+		print(finder.nbest(bigram_measures.pmi, 10))
+'''
 
 # Output Data
 allSentiment = [pos, neg, neu]

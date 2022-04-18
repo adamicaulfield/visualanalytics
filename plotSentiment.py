@@ -139,22 +139,32 @@ v=0.5			    #y-position of the center
 a=std_thresh*np.std(neg)       #radius on the x-axis
 b=std_thresh*np.std(pos)       #radius on the y-axis
 t = np.linspace(0, 2*pi, 100)
-ax.plot( u+a*np.cos(t) , v+b*np.sin(t) , color="red", alpha=0.6, label=str(std_thresh)+" Std Devs from Mean")
+#ax.plot( u+a*np.cos(t) , v+b*np.sin(t) , color="red", alpha=0.6, label=str(std_thresh)+" Std Devs from Mean")
+plt.axvline(x=np.mean(neg)+std_thresh*np.std(neg),color="red", alpha=0.6, label=str(std_thresh)+" Std Devs (Neg)")
+plt.axvline(x=np.mean(neg)-std_thresh*np.std(neg),color="red", alpha=0.6)
+
+plt.axhline(y=np.mean(pos)+std_thresh*np.std(pos),color="green", alpha=0.6, label=str(std_thresh)+" Std Devs (Pos)")
+plt.axhline(y=np.mean(pos)-std_thresh*np.std(pos),color="green", alpha=0.6)
 for i in range(0, len(labels)):
 	q1 =  (pos[i] >= std_thresh*np.std(pos)+np.mean(pos))
 	q2 =  (pos[i] <= -1*std_thresh*np.std(pos)+np.mean(pos))
-	q3 =  (neg[i] >= std_thresh*np.std(neg)+np.mean(pos))
-	q4 =  (neg[i] <= -1*std_thresh*np.std(neg)+np.mean(pos))
+	q3 =  (neg[i] >= std_thresh*np.std(neg)+np.mean(neg))
+	q4 =  (neg[i] <= -1*std_thresh*np.std(neg)+np.mean(neg))
 	
 	ann = (q1 or q2 or q3 or q4)
 
 	if ann:
-		print("Significant pos/neg: "+labels[i])
+		if q1 or q2:	
+			print("Significant pos: "+labels[i]+" pos:"+str(pos[i]))
+		if q3 or q4:
+			print("Significant neg: "+labels[i]+" neg:"+str(neg[i]))
+
 		sig_neg.append(neg[i])
 		sig_pos.append(pos[i])
+
 		ax.annotate(labels[i], (neg[i], pos[i]))
 
-
+	'''
 	p1 = (count[i] >= std_thresh*np.std(count)+np.mean(count))
 	p2 = (count[i] <= -1*std_thresh*np.std(count)+np.mean(count))
 
@@ -164,11 +174,12 @@ for i in range(0, len(labels)):
 		sig_count[1].append(pos[i])
 		sig_count[2].append(count[i])
 		ax.annotate(labels[i], (neg[i], pos[i]))
+	'''
 
 plt.scatter(sig_neg, sig_pos, color="blue", marker="*", label="Significant pos or neg sentiment")
-plt.scatter(sig_count[0], sig_count[1], s=sig_count[2], color="green", marker=".", label="Significant count")
+#plt.scatter(sig_count[0], sig_count[1], s=sig_count[2], color="green", marker=".", label="Significant count")
 
-plt.legend()
+plt.legend(loc=1)
 plt.show()
 
 fig, axs = plt.subplots(2, 2)

@@ -23,18 +23,21 @@ from datetime import datetime
 #
 # In case the above fails, e.g. because of missing internet connection
 # use the following lists as fallback.
-names = ['Plants From Strum',
-         'Re: Plants From Strum to Cazar',
-         'Re: Plants Cazar to Strum']
-         # 'FW: ARISE from Isia vann',
-         # 'FW: ARISE from Inga Ferro']
+names = ['Man your battles tations from Baza  ',
+         'Re:Man your battles tations from Flecha',
+         'Re: Man your battles tations from Flecha',
+         'Man your battles tations from Baza',
+         'Man your battles tations from Calixto',
+         'Man your battles tations from Calixto',
+         'Man your battles tations from Baza']
 
-dates = ['9:27',
-         '12:13',
-         '12:36']
-         # '19:31',
-         # '20:05',
-         # '21:33']
+dates = ['11:21',
+         '11:25',
+         '12:05',
+         '12:48',
+         '13:01',
+         '13:12',
+         '13:27']
 
 # Convert date strings (e.g. 2014-10-18) to datetime
 dates = [datetime.strptime(d,"%H:%M") for d in dates]

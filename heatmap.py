@@ -21,8 +21,19 @@ employee_file = open("./uqsender.txt", "r")
 employees = employee_file.readlines()
 for i in range(0, len(employees)):
 	employees[i] = employees[i].strip()
-	employees[i] = employees[i] + " ("+str(i)+")"
+	#print(employees[i])
+  #employees[i] = employees[i] + " ("+str(i)+")"
 
+etype_file = open("./employment_type.csv", "r")
+etype = etype_file.readlines()
+for i in range(0, len(etype)):
+  etype[i] = etype[i].strip()
+  print(employees[i]+": "+etype[i])
+
+for i in range(0, len(send_recv_data)):
+  for j in range(0, len(send_recv_data[0])):
+      if(etype[i] == etype[j]):
+          send_recv_data[i][j] = 0
 # Entering values in the index and columns  
 # and converting them into a panda dataframe
 df = pd.DataFrame(send_recv_data)
@@ -54,7 +65,7 @@ plt.ylabel("Sender IDs")
 
 plt.title("Frequency of sent and received emails")
 # Displaying the figure
-# plt.show()
+#plt.show()
 plt.savefig("emails.png")
 
 
@@ -69,5 +80,6 @@ fig.update_layout(
     autosize=True,
     xaxis_nticks=55,
     yaxis_nticks=55)
-# fig.show()
-fig.write_html("./heatmap.html")
+fig.show()
+#fig.write_html("./heatmap.html")
+fig.write_html("./heatmap_filtered.html")
